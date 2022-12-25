@@ -29,7 +29,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col d-flex flex-row">
-						<div class="phone">+45 345 3324 56789</div>
+						<div class="phone">+971 58 58 10 650</div>
 						<div class="social">
 							<ul class="social_list">
 								<li class="social_list_item"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
@@ -252,10 +252,10 @@
 							<div class="search_item">
 								<div>Category</div>
 								<select name="adults" id="adults_1" class="dropdown_item_select search_input">
-									<option >Villaas</option>
-									<option>Villaas</option>
-									<option>Hotels</option>
-									<option>Apartments</option>
+									<option value="">Select Category</option>
+									<option value="villas">Villas</option>
+									<option value="hotels">Hotels</option>
+									<option value="apartments">Apartments</option>
 								</select>
 							</div>
 							<div class="search_item">
@@ -269,17 +269,21 @@
 							<div class="search_item">
 								<div>adults</div>
 								<select name="adults" id="adults_1" class="dropdown_item_select search_input">
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
+									<option>0</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
 								</select>
 							</div>
 							<div class="search_item">
 								<div>children</div>
 								<select name="children" id="children_1" class="dropdown_item_select search_input">
 									<option>0</option>
-									<option>02</option>
-									<option>03</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
 								</select>
 							</div>
 							<button class="button search_button">search<span></span><span></span><span></span></button>
@@ -298,16 +302,23 @@
 					<div class="search_panel">
 						<form action="#" id="search_form_2" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 							<div class="search_item">
-								<div>destination</div>
-								<input type="text" class="destination search_input" required="required">
+								<div>Vechicle Type</div>
+								<select name="adults" id="adults_1" class="dropdown_item_select search_input">
+									<option>Select Category</option>
+									<option>Car</option>
+									<option>Bike</option>
+									<option>SUV</option>
+									<option>Yacht</option>
+									<option>Helicopter</option>
+								</select>
 							</div>
 							<div class="search_item">
-								<div>check in</div>
-								<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
+								<div>Pick Up</div>
+								<input type="datetime-local" class="check_in search_input" placeholder="YYYY-MM-DD">
 							</div>
 							<div class="search_item">
-								<div>check out</div>
-								<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
+								<div>Drop-off</div>
+								<input type="datetime-local" class="check_out search_input" placeholder="YYYY-MM-DD">
 							</div>
 							<div class="search_item">
 								<div>adults</div>
@@ -315,14 +326,17 @@
 									<option>01</option>
 									<option>02</option>
 									<option>03</option>
+									<option>4 or More</option>
+									
 								</select>
 							</div>
 							<div class="search_item">
 								<div>children</div>
 								<select name="children" id="children_2" class="dropdown_item_select search_input">
 									<option>0</option>
-									<option>02</option>
-									<option>03</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4 or More</option>
 								</select>
 							</div>
 							<button class="button search_button">search<span></span><span></span><span></span></button>
@@ -489,7 +503,10 @@
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1">
 					<div class="intro_text text-center">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec. </p>
+						<p>Known for its luxury and modernity, Dubai is absolutely a must-visit city. 
+							Whether you want to shop at the largest mall in the world, 
+							stay at the tallest hotel in the world, or see the tallest building in the world, 
+							Dubai is the place to be.</p>
 					</div>
 				</div>
 			</div>
@@ -525,7 +542,7 @@
 				<div class="col-lg-4 intro_col">
 					<div class="intro_item">
 						<div class="intro_item_overlay"></div>
-						<!-- Image by https://unsplash.com/@hellolightbulb -->
+						
 						<div class="intro_item_background" style="background-image:url(images/intro_2.jpg)"></div>
 						<div class="intro_item_content d-flex flex-column align-items-center justify-content-center">
 							<div class="intro_date">May 25th - June 01st</div>
@@ -550,7 +567,7 @@
 				<div class="col-lg-4 intro_col">
 					<div class="intro_item">
 						<div class="intro_item_overlay"></div>
-						<!-- Image by https://unsplash.com/@willianjusten -->
+						
 						<div class="intro_item_background" style="background-image:url(images/intro_3.jpg)"></div>
 						<div class="intro_item_content d-flex flex-column align-items-center justify-content-center">
 							<div class="intro_date">May 25th - June 01st</div>
@@ -577,7 +594,7 @@
 	<!-- CTA -->
 
 	<div class="cta">
-		<!-- Image by https://unsplash.com/@thanni -->
+		
 		<div class="cta_background" style="background-image:url(images/cta.jpg)"></div>
 		
 		<div class="container">
@@ -599,7 +616,11 @@
 									<i></i>
 									<i></i>
 								</div>
-								<p class="cta_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.</p>
+								<p class="cta_text">Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, 
+									ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, 
+									dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, 
+									with jets and lights choreographed to music. On artificial islands just offshore is Atlantis,
+									 The Palm, a resort with water and marine-animal parks.</p>
 								<div class="button cta_button"><div class="button_bcg"></div><a href="#">book now<span></span><span></span><span></span></a></div>
 							</div>
 
@@ -783,7 +804,8 @@
 										<i></i>
 										<i></i>
 									</div>
-									<p class="offers_text">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+									<p class="offers_text">Admire widescreen views of Dubai’s skyline from the water 
+										without an expensive private yacht charter on this shared cruise from Dubai Marina.</p>
 									<div class="offers_icons">
 										<ul class="offers_icons_list">
 											<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -805,7 +827,7 @@
 						<div class="row">
 							<div class="col-lg-6">
 								<div class="offers_image_container">
-									<!-- Image by https://unsplash.com/@mantashesthaven -->
+								
 									<div class="offers_image_background" style="background-image:url(images/offer_4.jpg)"></div>
 									<div class="offer_name"><a href="#">A Helicopter</a></div>
 								</div>
@@ -820,7 +842,8 @@
 										<i></i>
 										<i></i>
 									</div>
-									<p class="offers_text">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+									<p class="offers_text">To make sure you see Dubai in a way that many others won’t, 
+										be sure to do the Dubai Helicopter Tour.</p>
 									<div class="offers_icons">
 										<ul class="offers_icons_list">
 											<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -1160,7 +1183,7 @@
 							<div class="logo_container footer_logo">
 								<div class="logo"><a href="#" id="downlogo"><img src="images/logo.png" alt="" >Dubai Booker</a></div>
 							</div>
-							<p class="footer_about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula pretium.</p>
+							<p class="footer_about_text">Be prepared to learn so much while enjoying the amazing views and the best tours Dubai has to offer!</p>
 							<ul class="footer_social_list">
 								<li class="footer_social_item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
 								<li class="footer_social_item"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
@@ -1236,11 +1259,11 @@
 							<ul class="contact_info_list">
 								<li class="contact_info_item d-flex flex-row">
 									<div><div class="contact_info_icon"><img src="images/placeholder.svg" alt=""></div></div>
-									<div class="contact_info_text">Agiou Konstantinou 4, Athens, 104 31 Greece </div>
+									<div class="contact_info_text">Creative City Tower 4422 - Office 1309 Fujairah UAE</div>
 								</li>
 								<li class="contact_info_item d-flex flex-row">
 									<div><div class="contact_info_icon"><img src="images/phone-call.svg" alt=""></div></div>
-									<div class="contact_info_text">+30 698 8714147</div>
+									<div class="contact_info_text">+971 58 58 10 650</div>
 								</li>
 								<li class="contact_info_item d-flex flex-row">
 									<div><div class="contact_info_icon"><img src="images/message.svg" alt=""></div></div>
