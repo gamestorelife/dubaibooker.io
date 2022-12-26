@@ -131,7 +131,7 @@
 
 				<!-- Slider Item -->
 				<div class="owl-item home_slider_item">
-					<!-- Image by https://unsplash.com/@anikindimitry -->
+					
 					<div class="home_slider_background" style="background-image:url(images/home_slider.jpg)"></div>
 
 					<div class="home_slider_content text-center">
@@ -302,12 +302,21 @@
 					<div class="search_panel">
 						<form action="#" id="search_form_2" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 							<div class="search_item">
+								<div>Category</div>
+								<select name="adults" id="adults_1" class="dropdown_item_select search_input">
+									<option>Select Category</option>
+									<option>Car Rental</option>
+									<option>Chauffeur</option>
+									<option>Tranfer</option>
+									
+								</select>
+							</div>
+							<div class="search_item">
 								<div>Vechicle Type</div>
 								<select name="adults" id="adults_1" class="dropdown_item_select search_input">
 									<option>Select Category</option>
 									<option>Car</option>
 									<option>Bike</option>
-									<option>SUV</option>
 									<option>Yacht</option>
 									<option>Helicopter</option>
 								</select>
@@ -343,36 +352,47 @@
 						</form>
 					</div>
 
-					<!-- Search Panel -->
+					<!-- servcise Search Panel -->
 
 					<div class="search_panel">
 						<form action="#" id="search_form_3" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 							<div class="search_item">
-								<div>destination</div>
-								<input type="text" class="destination search_input" required="required">
+								<div>Category</div>
+								<select name="adults" id="adults_1" class="dropdown_item_select search_input">
+									<option>Select Category</option>
+									<option>Massage</option>
+									<option>SPA</option>
+									<option>Private Shef</option>
+									<option>Hair Cut</option>
+									<option>Cleaning Services</option>
+
+									
+								</select>
 							</div>
 							<div class="search_item">
-								<div>check in</div>
-								<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
+								<div>Select Time</div>
+								<input type="datetime-local" class="check_in search_input" placeholder="YYYY-MM-DD">
 							</div>
+							
 							<div class="search_item">
-								<div>check out</div>
-								<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
-							</div>
-							<div class="search_item">
-								<div>adults</div>
+								<div>Adults</div>
 								<select name="adults" id="adults_3" class="dropdown_item_select search_input">
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
+									<option>0</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5 Or More</option>
 								</select>
 							</div>
 							<div class="search_item">
 								<div>children</div>
 								<select name="children" id="children_3" class="dropdown_item_select search_input">
 									<option>0</option>
-									<option>02</option>
-									<option>03</option>
+									<option>1</option>
+									<option>2</option>
+									<option>4</option>
+									<option>5 Or More</option>
 								</select>
 							</div>
 							<button class="button search_button">search<span></span><span></span><span></span></button>
