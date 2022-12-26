@@ -471,6 +471,7 @@ section
 	-ms-transform: translateY(2px);
 	-o-transform: translateY(2px);
 	transform: translateY(2px);
+	
 }
 
 /*********************************
@@ -1052,7 +1053,7 @@ section
 }
 .search_item:first-child
 {
-	width: 30.453%;
+	width: 15.961%;
 }
 .search_item:nth-child(2)
 {
