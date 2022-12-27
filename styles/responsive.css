@@ -153,8 +153,8 @@
 	.search
 	{
 		height: auto;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 20px;
+		padding-bottom: 30px;
 	}
 	.search_tabs_container
 	{
@@ -169,9 +169,10 @@
 	}
 	.search_tab
 	{
-		height: 62px;
+		height: 50px;
 		width: 100%;
 		padding-left: 15px;
+
 	}
 	.search_tab:first-child
 	{
@@ -185,7 +186,7 @@
 	.search_panel
 	{
 		display: none !important;
-		margin-top: 50px;
+		margin-top: 20px;
 	}
 	.search_panel.active
 	{
@@ -314,6 +315,23 @@
 
 @media only screen and (max-width: 575px)
 {
+	.home {
+		height: 400px;
+		
+	}
+	
+	
+	.home_slider_container {
+		display: flex;
+		height: 400px;
+	}
+
+
+
+
+
+
+
 	p{font-size: 13px;}
 	.top_bar
 	{
@@ -560,6 +578,9 @@
 
 @media only screen and (max-width: 479px)
 {
+
+
+
 #up-logo {
 	width: 50px;
 }
@@ -570,9 +591,7 @@
 		margin-top: -1px;
 		
 	}
-	.search_itemmm {
-		padding-top: 100px;
-	}
+	
 
 
 	h2{font-size: 24px;}
