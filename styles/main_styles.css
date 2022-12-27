@@ -495,7 +495,7 @@ section
 	bottom: -11px;
 	width: calc(100% + 2px);
 	height: 2px;
-	background: linear-gradient(to right, #334d50, #cbcaa5);
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
 	content: '';
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
@@ -615,11 +615,16 @@ section
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(to right, #334d50, #cbcaa5);
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
 	z-index: 100;
 	opacity: 0;
 	visibility: hidden;
 }
+
+
+
+
+
 .menu.active
 {
 	opacity: 0.95;
@@ -1866,7 +1871,7 @@ section
 	width: 100%;
 	padding-top: 113px;
 	padding-bottom: 104px;
-	background: #2E2A53 ;
+	background: #31124b ;
 }
 .footer_title
 {
