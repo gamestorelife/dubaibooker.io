@@ -256,7 +256,7 @@ section
 	left: 0;
 	width: 200%;
 	height: 100%;
-	background: linear-gradient(to right, #334d50, #cbcaa5);
+	background-image: linear-gradient(to right, #2e2a53, #363764, #3e4475, #455287, #4c6099, #4d66a8, #4d6cb7, #4d72c7, #4d6fd6, #526ce4, #5d66f0, #6c5ffb);
 	z-index: -1;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -313,12 +313,12 @@ section
 {
 	position: fixed;
 	width: 100%;
-	background: #334d50b4;
+	background: #2e2a53a8;
 	z-index: 12;
 }
 .header.scrolled
 {
-	background: #334d50b7;
+	background: #2e2a53a2;
 }
 
 /*********************************
@@ -329,7 +329,7 @@ section
 {
 	width: 100%;
 	height: 36px;
-	background: #350a4e;
+	background: #2E2A53;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
@@ -510,7 +510,7 @@ section
 	bottom: -11px;
 	width: calc(100% + 2px);
 	height: 2px;
-	background: linear-gradient(to right, #334d50, #cbcaa5);
+	background-image: linear-gradient(to right, #2e2a53, #363764, #3e4475, #455287, #4c6099, #4d66a8, #4d6cb7, #4d72c7, #4d6fd6, #526ce4, #5d66f0, #6c5ffb);
 	content: '';
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
@@ -630,7 +630,7 @@ section
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(to right, #334d50, #cbcaa5);
+	background-image: linear-gradient(to right, #2e2a53, #363764, #3e4475, #455287, #4c6099, #4d66a8, #4d6cb7, #4d72c7, #4d6fd6, #526ce4, #5d66f0, #6c5ffb);
 	z-index: 100;
 	opacity: 0;
 	visibility: hidden;
@@ -936,7 +936,7 @@ section
 {
 	width: 100%;
 	height: 192px;
-	background: linear-gradient(to right, #334d50, #cbcaa5);
+	background-image: linear-gradient(to right, #2e2a53, #363764, #3e4475, #455287, #4c6099, #4d66a8, #4d6cb7, #4d72c7, #4d6fd6, #526ce4, #5d66f0, #6c5ffb);
 	z-index: 10;
 }
 .search_tabs_container
@@ -988,7 +988,7 @@ section
 }
 .search_tab.active
 {
-	background: #334d50;
+	background: #2E2A53;
 	color: #FFFFFF;
 }
 .search_tab.active img
@@ -1001,7 +1001,7 @@ section
 }
 .search_tab:hover
 {
-	background: #334d50;
+	background: #2E2A53;
 	color: #FFFFFF;
 }
 .search_tab:hover img
@@ -1300,7 +1300,7 @@ section
 {
 	padding-top: 125px;
 	padding-bottom: 116px;
-	background: linear-gradient(to right, #334d50, #cbcaa5);
+	background-image: linear-gradient(to right, #2e2a53, #363764, #3e4475, #455287, #4c6099, #4d66a8, #4d6cb7, #4d72c7, #4d6fd6, #526ce4, #5d66f0, #6c5ffb);	
 }
 .cta_background
 {
@@ -1549,7 +1549,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background-image: linear-gradient(to right, #2e2a53, #363764, #3e4475, #455287, #4c6099, #4d66a8, #4d6cb7, #4d72c7, #4d6fd6, #526ce4, #5d66f0, #6c5ffb);	
 }
 
 /*********************************
@@ -1781,7 +1781,7 @@ section
 	padding-left: 48px;
 	padding-right: 48px;
 	padding-bottom: 88px;
-	background: linear-gradient(to right, #334d50, #cbcaa5);
+	background-image: linear-gradient(to right, #2e2a53, #363764, #3e4475, #455287, #4c6099, #4d66a8, #4d6cb7, #4d72c7, #4d6fd6, #526ce4, #5d66f0, #6c5ffb);
 }
 .contact_form
 {
@@ -1896,7 +1896,7 @@ section
 	width: 100%;
 	padding-top: 113px;
 	padding-bottom: 104px;
-	background: #334d50 ;
+	background: #2E2A53 ;
 }
 .footer_title
 {
@@ -2110,7 +2110,7 @@ section
 
 .copyright
 {
-	background: #1f0733;
+	background: #18162c;
 }
 .copyright_content
 {
