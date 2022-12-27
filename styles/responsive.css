@@ -126,6 +126,9 @@
 
 @media only screen and (max-width: 991px)
 {
+
+
+
 	.main_nav_container
 	{
 		display: none;
@@ -191,7 +194,7 @@
 	.search_item
 	{
 		width: 100% !important;
-		margin-bottom: 23px;
+		margin-bottom: 10px;
 	}
 	.search_item:last-child
 	{
@@ -557,11 +560,22 @@
 
 @media only screen and (max-width: 479px)
 {
+#up-logo {
+	width: 50px;
+}
+.search_item
+	{
+		width: 100% !important;
+		margin-bottom: 10px;
+	}
+
+
 	h2{font-size: 24px;}
 	p{font-size: 13px;}
 	.intro_center h1
 	{
-		font-size: 36px;
+		
+		font-size: 34px;
 	}
 	.intro_text p
 	{
