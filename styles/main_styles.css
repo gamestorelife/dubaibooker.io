@@ -125,14 +125,7 @@ p a:hover::after
 {
 	opacity: 0.2;
 }
-::selection
-{
-	
-}
-p::selection
-{
-	
-}
+
 h1{font-size: 48px;}
 h2{font-size: 36px;}
 h3{font-size: 24px;}
@@ -145,15 +138,7 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
-h6::selection
-{
-	
-}
+
 .form-control
 {
 	color: #db5246;
@@ -874,10 +859,7 @@ section
 	bottom: 45px;
 	z-index: 10;
 }
-.home_slider_custom_dots
-{
 
-}
 .home_slider_custom_dot
 {
 	display: inline-block;
@@ -1245,10 +1227,7 @@ section
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
-.intro_center
-{
 
-}
 .intro_center h1
 {
 	font-size: 40px;
@@ -1319,10 +1298,7 @@ section
 8.1 CTA Slider
 *********************************/
 
-.cta_slider_container
-{
 
-}
 .cta_item
 {
 	padding-top: 75px;
@@ -1422,10 +1398,9 @@ section
 {
 	margin-bottom: 83px;
 }
-.offers_item
-{
 
-}
+
+
 .offers_image_container
 {
 	width: 100%;
@@ -1462,10 +1437,7 @@ section
 	line-height: 35px;
 	padding-left: 22px;
 }
-.offers_content
-{
-	
-}
+
 .offers_price
 {
 	display: inline-block;
@@ -1481,10 +1453,8 @@ section
 	color: #929191;
 	margin-left: 12px;
 }
-.offers_rating
-{
 
-}
+
 .offers_rating i::before
 {
 	font-size: 13px;
@@ -2126,10 +2096,9 @@ section
 {
 	height: 52px;
 }
-.footer_nav
-{
+
 	
-}
+
 .footer_nav_list
 {
 	font-size: 0px;
