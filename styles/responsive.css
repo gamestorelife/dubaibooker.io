@@ -566,7 +566,12 @@
 .search_item
 	{
 		width: 100% !important;
-		margin-bottom: 10px;
+		margin-bottom: -1px;
+		margin-top: -1px;
+		
+	}
+	.search_itemmm {
+		padding-top: 100px;
 	}
 
 

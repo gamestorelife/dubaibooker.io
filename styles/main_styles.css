@@ -1077,7 +1077,8 @@ section
 	font-weight: 700;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	margin-bottom: 14px;
+	margin-bottom: 2px;
+	padding-top: 10px;
 }
 .dropdown_item_select
 {
