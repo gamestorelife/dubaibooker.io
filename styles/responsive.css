@@ -315,16 +315,27 @@
 
 @media only screen and (max-width: 575px)
 {
+
+
 	.home {
-		height: 400px;
+		height: 350px;
 		
 	}
 	
 	
 	.home_slider_container {
 		display: flex;
-		height: 400px;
+		height: 350px;
 	}
+
+
+
+	.home_slider_content h1:first-child {
+		font-size: 20px;
+	}
+
+
+
 
 
 

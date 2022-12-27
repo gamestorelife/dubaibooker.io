@@ -801,6 +801,7 @@ section
 	font-weight: 900;
 	color: #FFFFFF;
 	text-transform: uppercase;
+	padding-bottom: 20px;
 }
 .home_slider_content h1:nth-child(2)
 {
