@@ -160,7 +160,7 @@
 	}
 	
 	.search_tab {
-		border-radius: 8px;
+		border-radius: 0px;
 	}
 
 	#rounded {
@@ -378,8 +378,8 @@
 	}
 
 	#all-serchs {
-		opacity: 0.8;
-		margin-top: -60px;
+		opacity: 0.6;
+		margin-top: -10px;
 	}
 
 
