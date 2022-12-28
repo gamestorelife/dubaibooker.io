@@ -156,6 +156,10 @@
 		padding-top: 20px;
 		padding-bottom: 30px;
 	}
+
+
+
+
 	.search_tabs_container
 	{
 		position: relative;
@@ -172,6 +176,7 @@
 		height: 50px;
 		width: 100%;
 		padding-left: 15px;
+		font-size: 10px;
 
 	}
 	.search_tab:first-child
@@ -192,10 +197,16 @@
 	{
 		display: flex!important;
 	}
+
+
+
+
 	.search_item
 	{
 		width: 100% !important;
 		margin-bottom: 10px;
+		
+		
 	}
 	.search_item:last-child
 	{
@@ -335,7 +346,11 @@
 	}
 
 
+	.search_item div {
+		font-size: 10px;
+	}
 
+	
 
 
 
