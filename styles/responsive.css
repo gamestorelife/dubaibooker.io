@@ -156,8 +156,22 @@
 		padding-top: 20px;
 		padding-bottom: 30px;
 		
+		
 	}
 	
+	.search_tab {
+		border-radius: 8px;
+	}
+
+	#rounded {
+		border-radius: 80px;
+	}
+
+
+
+
+
+
 
 
 
@@ -365,6 +379,7 @@
 
 	#all-serchs {
 		opacity: 0.8;
+		margin-top: -120px;
 	}
 
 
