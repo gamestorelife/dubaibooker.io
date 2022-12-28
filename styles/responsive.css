@@ -350,6 +350,7 @@
 		font-size: 10px;
 	}
 
+
 	
 
 
@@ -449,7 +450,7 @@
 	}
 	.logo a img
 	{
-		width: 16px;
+		width: 120px;
 		margin-right: 7px;
 	}
 	.hamburger i
@@ -606,10 +607,6 @@
 {
 
 
-
-#up-logo {
-	width: 50px;
-}
 .search_item
 	{
 		width: 100% !important;

@@ -456,6 +456,7 @@ section
 	-ms-transform: translateY(2px);
 	-o-transform: translateY(2px);
 	transform: translateY(2px);
+	width: 250px;
 	
 }
 
