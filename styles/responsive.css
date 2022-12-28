@@ -178,7 +178,7 @@
 		height: 50px;
 		width: 100%;
 		padding-left: 15px;
-		font-size: 10px;
+		font-size: 8px;
 
 	}
 	.search_tab:first-child
@@ -344,12 +344,12 @@
 
 
 	.home_slider_content h1:first-child {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 
 	.search_item div {
-		font-size: 10px;
+		font-size: 8px;
 	}
 
 
@@ -357,6 +357,15 @@
 		font-size: 100px;
 	}
 
+
+	#main2img {
+		background-image: url(../images/Menu-img.jpeg);
+		background-size: 100%;
+	}
+
+	#all-serchs {
+		opacity: 0.8;
+	}
 
 
 
