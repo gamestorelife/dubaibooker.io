@@ -159,12 +159,11 @@
 		
 	}
 	
-	.search_tab {
-		border-radius: 0px;
-	}
+	
 
 	#rounded {
 		border-radius: 80px;
+		
 	}
 
 
@@ -193,6 +192,7 @@
 		width: 100%;
 		padding-left: 15px;
 		font-size: 8px;
+		
 
 	}
 	.search_tab:first-child
