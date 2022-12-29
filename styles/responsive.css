@@ -387,7 +387,9 @@
 		width: 34px;
 	}
 
-
+	#roundedk {
+		border-radius: 10px;
+	}
 
 
 
@@ -486,7 +488,7 @@
 	}
 	.logo a img
 	{
-		width: 120px;
+		width: 110px;
 		margin-right: 7px;
 	}
 	.hamburger i
