@@ -465,6 +465,7 @@ section
 }
 .logo a img
 {
+	width: 250px;
 	display: inline-block;
 	vertical-align: baseline;
 	margin-right: 9px;
@@ -1374,5 +1375,5 @@ section
 }
 
 #downlogo {
-	font-size: 25px;
+	width: 200px;
 }

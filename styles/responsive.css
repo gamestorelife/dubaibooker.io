@@ -401,6 +401,17 @@
 
 
 
+ #downlogo {
+	width: 150px;
+ }
+
+
+
+
+
+
+
+
 
 
 
@@ -519,7 +530,7 @@
 	}
 	.menu_logo a img
 	{
-		width: 28px !important;
+		width: 150px !important;
 	}
 	.menu_item a
 	{

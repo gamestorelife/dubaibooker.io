@@ -1907,6 +1907,7 @@ section
 	position: absolute;
 	left: 0;
 	top: -24px;
+	
 }
 .footer_about_text
 {
@@ -2145,5 +2146,5 @@ section
 }
 
 #downlogo {
-	font-size: 25px;
+	width: 200px;
 }
