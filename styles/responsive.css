@@ -380,6 +380,7 @@
 	#all-serchs {
 		
 		margin-top: -20px;
+		
 	}
 
 
@@ -389,6 +390,10 @@
 
 	#roundedk {
 		border-radius: 10px;
+		border-color: white;
+		background-color: rgba(0, 0, 255, 0);
+		border-style: solid ;
+		color: orange;
 	}
 
 
