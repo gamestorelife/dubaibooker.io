@@ -185,6 +185,7 @@
 	.search_tabs
 	{
 		height: auto;
+		
 	}
 	.search_tab
 	{
@@ -192,6 +193,7 @@
 		width: 100%;
 		padding-left: 15px;
 		font-size: 8px;
+		margin-bottom: 10px;
 		
 
 	}
@@ -394,6 +396,7 @@
 		background-color: rgba(0, 0, 255, 0);
 		border-style: solid ;
 		color: orange;
+		
 	}
 
 
