@@ -197,7 +197,23 @@
 	}
 
 
+	.search_tab_lil {
+		height: 50px;
+		width: 100%;
+		padding:10px;
+		
+		border-radius: 10px;
+		border-color: white;
+		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
+		border-style: solid ;
+		margin-right: 10px;
 
+	}
+
+	.search_tab_lil span {
+		font-size: 12px;
+		
+	}
 
 
 
