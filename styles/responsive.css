@@ -405,7 +405,7 @@
 	#roundedk {
 		border-radius: 10px;
 		border-color: white;
-		background-color: rgba(0, 0, 255, 0);
+		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 1;
