@@ -197,23 +197,7 @@
 	}
 
 
-	.search_tab_lil {
-		height: 50px;
-		width: 100%;
-		padding:10px;
-		
-		border-radius: 10px;
-		border-color: white;
-		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
-		border-style: solid ;
-		margin-right: 10px;
 
-	}
-
-	.search_tab_lil span {
-		font-size: 12px;
-		
-	}
 
 
 
@@ -439,6 +423,40 @@
  #downlogo {
 	width: 150px;
  }
+
+
+ #search_tab_lil {
+	height: 50px;
+	width: 100%;
+	padding:10px;
+	color: #ffffff;
+	border-radius: 10px;
+	border-color: white;
+	background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
+	border-style: solid ;
+	margin-right: 30px;
+
+}
+
+#search_tab_lil span {
+	font-size: 13px;
+	
+}
+
+
+
+.nav-item {
+	margin-left: 10px;
+}
+
+.nav-item active {
+	color: #fff;
+}
+
+
+
+
+
 
 
 

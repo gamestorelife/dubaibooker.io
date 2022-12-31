@@ -165,6 +165,31 @@ $(document).ready(function()
 		}
 	}
 
+	function initlilSearch()
+	{
+		if($('.search_tab_lil').length)
+		{
+			$('.search_tab_lil').removeClass('active');
+			$(this).addClass('active')
+			var clickedIndex = $('.search_tab_lil').index(this);
+
+			var panels = $('.search_panel');
+			panels.removeClass('active');
+				$(panels[clickedIndex]).addClass('active')
+
+
+		}
+	}
+
+
+
+
+
+
+
+
+
+
 	/* 
 
 	5. Init More Options
