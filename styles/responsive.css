@@ -197,11 +197,8 @@
 	}
 
 
-	#roundedk.active
-{
-	background: #fa9e1b;
-	color: #ffffff;
-}
+
+
 
 
 
@@ -413,6 +410,12 @@
 		color: orange;
 		opacity: .7;
 		
+	}
+
+	#roundedk.active
+	{
+		background: linear-gradient(to right, #fa9e1b, #8d4fff);
+		color: #ffffff;
 	}
 
 
