@@ -257,6 +257,38 @@ $(document).ready(function()
 				$(panels[clickedIndex]).addClass('active');
 			});
 		}
+
+
+		if($('.nav-link').length)
+		{
+			$('.nav-link').on('click', function()
+			{
+				$('.nav-link').removeClass('active');
+				$(this).addClass('active');
+				var clickedIndex = $('.nav-link').index(this);
+
+				var panels = $('.nav');
+				panels.removeClass('active');
+				$(panels[clickedIndex]).addClass('active');
+			});
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	}
 
 	/* 
