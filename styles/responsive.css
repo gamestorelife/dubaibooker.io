@@ -211,12 +211,12 @@
 
 	.search_tab:first-child
 	{
-		border-top-left-radius: 0px;
+		
 		padding-left: 15px;
 	}
 	.search_tab:last-child
 	{
-		border-top-right-radius: 0px;
+		
 	}
 	.search_panel
 	{

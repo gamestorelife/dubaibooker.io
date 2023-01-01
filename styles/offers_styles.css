@@ -471,6 +471,7 @@ section
 	display: inline-block;
 	vertical-align: baseline;
 	margin-right: 9px;
+	width: 250px;
 	-webkit-transform: translateY(2px);
 	-moz-transform: translateY(2px);
 	-ms-transform: translateY(2px);
@@ -895,6 +896,15 @@ section
 	height: auto;
 	flex-wrap: wrap;
 }
+
+#reservlogo {
+	width: 45px;
+}
+
+
+
+
+
 .search_tab
 {
 	font-size: 14px;

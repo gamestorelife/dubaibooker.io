@@ -417,6 +417,32 @@
 
 @media only screen and (max-width: 575px)
 {
+
+
+	#roundedk {
+		border-radius: 10px;
+		border-color: white;
+		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
+		border-style: solid ;
+		color: rgb(255, 255, 255);
+		opacity: 1;
+		
+	}
+
+
+	#roundedk.active
+	{
+		background: linear-gradient(to right, #fa9e1b, #8d4fff);
+		color: #ffffff;
+	}
+
+
+
+
+
+
+
+
 	p{font-size: 13px;}
 	h1{font-size: 28px;}
 	.top_bar
@@ -488,7 +514,7 @@
 	}
 	.logo a img
 	{
-		width: 16px;
+		width: 110px;
 		margin-right: 7px;
 	}
 	.hamburger i
@@ -511,7 +537,7 @@
 	}
 	.menu_logo a img
 	{
-		width: 28px !important;
+		width: 150px !important;
 	}
 	.menu_item a
 	{
