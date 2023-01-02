@@ -259,15 +259,15 @@ $(document).ready(function()
 		}
 
 
-		if($('.nav-link').length)
+		if($('.search_tab_lil').length)
 		{
-			$('.nav-link').on('click', function()
+			$('.search_tab_lil').on('click', function()
 			{
-				$('.nav-link').removeClass('active');
+				$('.search_tab_lil').removeClass('active');
 				$(this).addClass('active');
-				var clickedIndex = $('.nav-link').index(this);
+				var clickedIndex = $('.search_tab_lil').index(this);
 
-				var panels = $('.nav');
+				var panels = $('.menu-nav');
 				panels.removeClass('active');
 				$(panels[clickedIndex]).addClass('active');
 			});

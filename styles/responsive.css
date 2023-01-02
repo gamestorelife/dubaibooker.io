@@ -170,7 +170,7 @@
 	.menu-nav {
 		position: relative;
 		display: inline-block;
-		
+		padding-top: 10px;
 		z-index: 1;
 
 	}
@@ -428,7 +428,7 @@
  }
 
 
- #search_tab_lil {
+ .search_tab_lil {
 	position: relative;
 	height: 50px;
 	width: 150%;
@@ -439,11 +439,29 @@
 	background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
 	border-style: solid ;
 	margin-right: 10px;
-	text-align: center;
+	
 	margin-top: -10px;
 	
+	font-size: 14px;
+	font-weight: 700;
+	color: #2d2c2c;
+	text-transform: uppercase;
+	text-align: center;
+	height: 100%;
+	flex-grow: 1;
+	
+	cursor: pointer;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
 
+	
 }
+
+
+
 
 #search_tab_lil span {
 	font-size: 13px;
@@ -452,17 +470,31 @@
 }
 
 
-.menu-nav .animation {
-	position: absolute;
-	height: 100%;
-	top: 0;
-	z-index: 0;
-	
-	width: 100%;
-	border-radius: 10px;
+
+.menu-nav a:nth-child(1){
+	width: 500px;
+	transition: background-color 3s ease;
+
+}
+.menu-nav a:nth-child(1):hover{
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	color: #ffffff;
+}
+.menu-nav a:nth-child(2):hover{
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	color: #ffffff;
+}
+.menu-nav a:nth-child(3):hover{
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	color: #ffffff;
 }
 
-
+.menu-nav a:nth-child(1):active {
+	width: 500px;
+	background: #fa9e1b;
+	transition: background-color 3s ease;
+	
+}
 
 
 
