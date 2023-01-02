@@ -460,7 +460,7 @@
 	
 }
 
-..search_tab_lil.active {
+.search_tab_lil.active {
 	background: linear-gradient(to right, #fa9e1b, #8d4fff);
 	color: #ffffff;
 }
