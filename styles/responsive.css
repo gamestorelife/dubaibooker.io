@@ -439,7 +439,7 @@
 	background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
 	border-style: solid ;
 	margin-right: 10px;
-	
+	display: block;
 	margin-top: -10px;
 	
 	font-size: 10px;
@@ -451,16 +451,19 @@
 	flex-grow: 1;
 	
 	cursor: pointer;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 
 	
 }
 
-
+..search_tab_lil.active {
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	color: #ffffff;
+}
 
 
 

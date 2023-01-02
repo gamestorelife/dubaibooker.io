@@ -929,6 +929,8 @@ section
 	margin-right: -1px;
 	margin-bottom: -1px;
 }
+
+
 .search_tab img
 {
 	margin-right: 10px;
@@ -948,11 +950,15 @@ section
 	border-top-right-radius: 94px;
 	padding-right: 7px;
 }
+
+
 .search_tab.active
 {
 	background: #fa9e1b;
 	color: #FFFFFF;
 }
+
+
 .search_tab.active img
 {
 	-webkit-filter: brightness(200%) grayscale(100%);

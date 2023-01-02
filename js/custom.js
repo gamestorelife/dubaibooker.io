@@ -18,6 +18,11 @@
 
 $(document).ready(function()
 {
+
+	
+
+
+
 	"use strict";
 
 	/* 
@@ -259,7 +264,7 @@ $(document).ready(function()
 		}
 
 
-		if($('.search_tab_lil').length)
+		  if($('.search_tab_lil').length)
 		{
 			$('.search_tab_lil').on('click', function()
 			{
@@ -267,11 +272,14 @@ $(document).ready(function()
 				$(this).addClass('active');
 				var clickedIndex = $('.search_tab_lil').index(this);
 
-				var panels = $('.menu-nav');
-				panels.removeClass('active');
-				$(panels[clickedIndex]).addClass('active');
+				var panes = $('.menu-nav');
+				panes.removeClass('active');
+				$(panes[clickedIndex]).addClass('active');
 			});
 		}
+		
+
+		
 
 
 
