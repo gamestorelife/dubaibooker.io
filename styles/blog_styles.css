@@ -444,6 +444,12 @@ section
 	-o-transform: translateY(-6px);
 	transform: translateY(-6px);
 }
+
+
+.logo .
+
+
+
 .header.scrolled .logo_container
 {
 	-webkit-transform: none;
@@ -462,6 +468,7 @@ section
 }
 .logo a img
 {
+	width: 250px;
 	display: inline-block;
 	vertical-align: baseline;
 	margin-right: 9px;
