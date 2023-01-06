@@ -36,6 +36,7 @@ document.getElementById("apparts-smenu").style.display = "none";
 
 
 
+
 $(document).ready(function()
 {
 		$("#villas-smenu").show();
@@ -65,6 +66,19 @@ $(document).ready(function()
 
 
 
+
+
+	  $("#roundedk1").change(function(){
+        $(this).find("option:selected").each(function(){
+            var optionValue = $(this).attr("value");
+            if(optionValue){
+                $(".box").not("." + optionValue).hide();
+                $("." + optionValue).show();
+            } else{
+                $(".box").hide();
+            }
+        });
+    }).change();
 	  
 
 

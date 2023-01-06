@@ -372,25 +372,46 @@
 						<form action="#" id="search_form_2" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 							<div class="search_item">
 								<div>Category</div>
-								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+								<select name="adults" id="roundedk1" class="dropdown_item_select search_input">
 									<option>Select Category</option>
-									<option>Rent A Car</option>
-									<option>Book A Transfer</option>
+									<option value="search_item1" >Rent A Car</option>
+									<option value="search_item2">Book A Transfer</option>
 									<option>Hire A Driver</option>
 									<option>Airport transfer</option>
 									<option>Rent Supercars</option>
 									
 								</select>
 							</div>
-							<div class="search_item">
+
+
+
+
+							<div class="search_item1 box" id="car-rent" >
 								<div>Vechicle Type</div>
 								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
 									<option>Select Category</option>
-									<option>Car</option>
-									<option>Yacht</option>
-									<option>Helicopter</option>
+									<option>SUV</option>
+									<option>Crossover</option>
+									<option>Convertible</option>
+									<option>Station Wagon</option>
+									<option>Minivan</option>
 								</select>
 							</div>
+
+
+							<div class="search_item2 box" id="btransfer" style="display:none" >
+								<div>Transfer Type</div>
+								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+									<option>Select Category</option>
+									<option>Minivan</option>
+									<option>Business</option>
+									<option>Standard</option>
+								</select>
+							</div>
+
+
+
+
 							<div class="search_item">
 								<div>Pick Up</div>
 								<input id="roundedk" type="datetime-local" class="check_in search_input" placeholder="YYYY-MM-DD">

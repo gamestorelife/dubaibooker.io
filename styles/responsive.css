@@ -401,6 +401,14 @@
 		font-size: 8px;
 	}
 
+	.search_item1 div {
+		font-size: 8px;
+	}
+
+	.search_item2 div {
+		font-size: 8px;
+	}
+
 
 	.discov {
 		font-size: 100px;
@@ -432,6 +440,24 @@
 		opacity: 1;
 		
 	}
+
+
+	#roundedk1 {
+		border-radius: 10px;
+		border-color: white;
+		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
+		border-style: solid ;
+		color: rgb(255, 255, 255);
+		opacity: 1;
+	} 
+
+
+
+
+
+
+
+
 
 	#roundedk.active
 	{
@@ -794,6 +820,20 @@
 
 @media only screen and (max-width: 479px)
 {
+
+
+	.search_item1 {
+		width: 100% !important;
+		margin-bottom: -1px;
+		margin-top: -1px;
+	}
+
+	.search_item2 {
+		width: 100% !important;
+		margin-bottom: -1px;
+		margin-top: -1px;
+	}
+
 
 
 .search_item

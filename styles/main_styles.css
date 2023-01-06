@@ -1166,6 +1166,30 @@ section
 	margin-bottom: 2px;
 	padding-top: 10px;
 }
+
+.search_item1 div {
+	font-size: 13px;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+	padding-top: 10px;
+}
+
+.search_item2 div {
+	font-size: 13px;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+	padding-top: 10px;
+}
+
+
+
+
+
+
 .dropdown_item_select
 {
 	-webkit-appearance:none;
