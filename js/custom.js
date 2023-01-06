@@ -44,7 +44,7 @@ $(document).ready(function()
 
 	$("#vill-action").click(function(){
 		
-		$("#villas-smenu").show();
+		$("#villas-smenu").show(500);
 		$("#hotels-smenu").hide();
 		$("#apparts-smenu").hide();
 	  });
@@ -52,13 +52,13 @@ $(document).ready(function()
 	  $("#hotel-action").click(function(){
 		
 		$("#villas-smenu").hide();
-		$("#hotels-smenu").show();
+		$("#hotels-smenu").show(500);
 		$("#apparts-smenu").hide();
 	  });
 
 
 	  $("#appart-action").click(function(){
-		$("#apparts-smenu").show();
+		$("#apparts-smenu").show(500);
 		$("#villas-smenu").hide();
 		$("#hotels-smenu").hide();
 	  });
