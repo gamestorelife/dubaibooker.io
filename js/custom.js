@@ -16,8 +16,62 @@
 
 ******************************/
 
+
+
+
+/** document.getElementById("villas-smenu").style.display = "visible";
+document.getElementById("hotels-smenu").style.display = "none";
+document.getElementById("apparts-smenu").style.display = "none";
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 $(document).ready(function()
 {
+		$("#villas-smenu").show();
+		$("#hotels-smenu").hide();
+		$("#apparts-smenu").hide();
+
+	$("#vill-action").click(function(){
+		
+		$("#villas-smenu").show();
+		$("#hotels-smenu").hide();
+		$("#apparts-smenu").hide();
+	  });
+
+	  $("#hotel-action").click(function(){
+		
+		$("#villas-smenu").hide();
+		$("#hotels-smenu").show();
+		$("#apparts-smenu").hide();
+	  });
+
+
+	  $("#appart-action").click(function(){
+		$("#apparts-smenu").show();
+		$("#villas-smenu").hide();
+		$("#hotels-smenu").hide();
+	  });
+
+
+
+	  
+
+
+
+
+
+
 
 	
 	"use strict";

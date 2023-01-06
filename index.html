@@ -249,44 +249,113 @@
 							<div class="search_item">
 								<div>Category</div>
 									<nav class="menu-nav d-flex flex-lg-row">
-										<a class="search_tab_lil active flex-row">Villas</a>
-										<a class="search_tab_lil">Hotels</a>
-										<a class="search_tab_lil">Apartments</a>	
+										<a id="vill-action" class="search_tab_lil active flex-row" >Villas</a>
+										<a id="hotel-action" class="search_tab_lil" >Hotels</a>
+										<a id="appart-action" class="search_tab_lil">Apartments</a>	
 									</nav>
 
-								
-								
-		
+
 							</div>
-							<div class="search_item">
-								<div>Check in</div>
-								<input id="roundedk" type="date" class="check_in search_input" placeholder="YYYY-MM-DD">
+
+							<div id="villas-smenu">
+								<div class="search_item">
+									<div>Check in</div>
+									<input id="roundedk" type="date" class="check_in search_input" placeholder="YYYY-MM-DD">
+								</div>
+								<div class="search_item">
+									<div>Check out</div>
+									<input id="roundedk" type="date" class="check_out search_input" placeholder="YYYY-MM-DD">
+								</div>
+								<div class="search_item">
+									<div>Adults</div>
+									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+										<option>0</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+								<div class="search_item">
+									<div>children</div>
+									<select name="children" id="roundedk" class="dropdown_item_select search_input">
+										<option>0</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+								<button class="button search_button"><a href="#">search<span></span><span></span><span></span></a></button>
 							</div>
-							<div class="search_item">
-								<div>Check out</div>
-								<input id="roundedk" type="date" class="check_out search_input" placeholder="YYYY-MM-DD">
+
+
+							<div id="hotels-smenu">
+								<div class="search_item">
+									<div>Check in</div>
+									<input id="roundedk" type="date" class="check_in search_input" placeholder="YYYY-MM-DD">
+								</div>
+								<div class="search_item">
+									<div>Check out</div>
+									<input id="roundedk" type="date" class="check_out search_input" placeholder="YYYY-MM-DD">
+								</div>
+								<div class="search_item">
+									<div>Adults</div>
+									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+										<option>0</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+								<div class="search_item">
+									<div>children</div>
+									<select name="children" id="roundedk" class="dropdown_item_select search_input">
+										<option>0</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+								<button class="button search_button"><a href="./hotels.html">search<span></span><span></span><span></span></a></button>
 							</div>
-							<div class="search_item">
-								<div>Adults</div>
-								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
+
+
+							<div id="apparts-smenu">
+								<div class="search_item">
+									<div>Check in</div>
+									<input id="roundedk" type="date" class="check_in search_input" placeholder="YYYY-MM-DD">
+								</div>
+								<div class="search_item">
+									<div>Check out</div>
+									<input id="roundedk" type="date" class="check_out search_input" placeholder="YYYY-MM-DD">
+								</div>
+								<div class="search_item">
+									<div>Adults</div>
+									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+										<option>0</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+								<div class="search_item">
+									<div>children</div>
+									<select name="children" id="roundedk" class="dropdown_item_select search_input">
+										<option>0</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+								<button class="button search_button"><a href="#">search<span></span><span></span><span></span></a></button>
 							</div>
-							<div class="search_item">
-								<div>children</div>
-								<select name="children" id="roundedk" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-							<button class="button search_button"><a href="./hotels.html">search<span></span><span></span><span></span></a></button>
+							
+							
 						</form>
 					</div>
 
@@ -1348,6 +1417,8 @@
 	</div>
 
 </div>
+
+
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
