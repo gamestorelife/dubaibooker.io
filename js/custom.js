@@ -30,7 +30,11 @@ document.getElementById("apparts-smenu").style.display = "none";
 
 
 
-
+$( function() {
+	$( "#roundedk24" ).datepicker({
+	  minDate:0
+	});
+  } );
 
 
 
@@ -80,6 +84,14 @@ $(document).ready(function()
         });
     }).change();
 	  
+
+
+	
+
+
+
+
+
 
 
 
