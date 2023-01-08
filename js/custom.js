@@ -26,7 +26,50 @@ document.getElementById("apparts-smenu").style.display = "none";
 
 /**Adults   */
 
-var clicks = 0;
+
+$(function()
+{
+   
+
+    $(".minus").click(function()
+    {
+        var currentVal = parseInt($(this).prev(".qty").val());
+        if (currentVal != NaN)
+        {
+            if(currentVal > 0){
+                    $(this).prev(".qty").val(currentVal - 1);
+                }
+
+        }
+    });
+
+	$(".add").click(function()
+    {
+        var currentVal = parseInt($(this).next(".qty").val());
+        if (currentVal != NaN)
+        {
+            $(this).next(".qty").val(currentVal + 1);
+        }
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** 
+
+
 
 function onClick() {
   clicks += 1;
@@ -37,10 +80,11 @@ function onClick2() {
   clicks -= 1;
   document.getElementById("clicks").innerHTML = clicks;
 };
-
+*/
 
 /**Kids   */
 
+var clicks = 0;
 function onClick4() {
 	clicks += 1;
 	document.getElementById("clickskidz").innerHTML = clicks;
