@@ -24,7 +24,7 @@ document.getElementById("hotels-smenu").style.display = "none";
 document.getElementById("apparts-smenu").style.display = "none";
 */
 
-
+/**Adults   */
 
 var clicks = 0;
 
@@ -39,6 +39,7 @@ function onClick2() {
 };
 
 
+/**Kids   */
 
 function onClick4() {
 	clicks += 1;
@@ -50,8 +51,16 @@ function onClick4() {
 	document.getElementById("clickskidz").innerHTML = clicks;
   };
 
-
-
+/**Rooms   */
+  function onClick6() {
+	clicks += 1;
+	document.getElementById("clicksrooms").innerHTML = clicks;
+  };
+  
+  function onClick5() {
+	clicks -= 1;
+	document.getElementById("clicksrooms").innerHTML = clicks;
+  };
 
 
 
