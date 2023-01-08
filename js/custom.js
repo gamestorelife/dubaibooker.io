@@ -26,6 +26,37 @@ document.getElementById("apparts-smenu").style.display = "none";
 
 
 
+var clicks = 0;
+
+function onClick() {
+  clicks += 1;
+  document.getElementById("clicks").innerHTML = clicks;
+};
+
+function onClick2() {
+  clicks -= 1;
+  document.getElementById("clicks").innerHTML = clicks;
+};
+
+
+
+function onClick4() {
+	clicks += 1;
+	document.getElementById("clickskidz").innerHTML = clicks;
+  };
+  
+  function onClick3() {
+	clicks -= 1;
+	document.getElementById("clickskidz").innerHTML = clicks;
+  };
+
+
+
+
+
+
+
+
 
 
 

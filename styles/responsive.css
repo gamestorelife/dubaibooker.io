@@ -258,6 +258,7 @@
 		margin-bottom: 10px;
 		
 		
+		
 	}
 	.search_item:last-child
 	{
@@ -462,6 +463,44 @@
 		opacity: 1;
 		
 	}
+
+
+	#count-persons {
+		margin-left: 32px;
+		font-size: 30px;
+		align-items: center;
+		
+		
+	}
+
+	.count-person {
+		
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		
+		
+	}
+
+	.a-style {
+		align-items: center;
+		justify-content: space-around;
+		font-size: 10px;
+		
+	}
+
+
+	.search_item-count {
+		padding-top: 20px;
+		
+	}
+
+	
+
+
+
+
+
 
 
 
