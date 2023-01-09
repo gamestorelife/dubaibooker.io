@@ -557,14 +557,14 @@
 		width: 100%;
 		height: 100%;
 		position: fixed;
-		bottom: 51px;
+		bottom: 10px;
 		left: 50%;
 		-webkit-transform: translateX(-50%);
 		-moz-transform: translateX(-50%);
 		-ms-transform: translateX(-50%);
 		-o-transform: translateX(-50%);
 		transform: translateX(-50%);
-		background-color: #8d4ffff6;
+		background: linear-gradient(to right, #fa9d1bf1, #8d4ffff1);
 		z-index:4;
 }
 	
@@ -624,7 +624,7 @@
 }
 
 .done-close {
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background: #722df3;
 		color: #ffffff;
 		border-radius: 30%;
 		width: 100%;
