@@ -171,7 +171,7 @@
 		position: relative;
 		display: inline-block;
 		padding-top: 10px;
-		z-index: 1;
+		
 
 	}
 
@@ -542,16 +542,93 @@
 		
 	}
 
+	.hamburger2 {
+		border-radius: 10px;
+		border-color: white;
+		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
+		border-style: solid ;
+		color: rgb(255, 255, 255);
+		opacity: 1;
+		margin-top: 20px;
+	}
+
+
+	.menu2 {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		bottom: 51px;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+		background-color: #8d4ffff6;
+		z-index:4;
+}
 	
+.persons-dash {
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin-top: 250px;
+	color: #ffffff;
+	font-weight: 600;
+	
+}
+#room1 {
+	width:75%;
+	height: 90px;
+	text-align:left;
+	
+}
+.counters-d {
+	text-align: right;
+	display: flex;
+	
+	
+}
+
+.selec-p {
+	text-align: left;
+	
+	
+}
+.maintr {
+	height: 50px;
+	
+}
 
 
 
+#add1 {
+	border-radius: 100%;
+	width: 60px;
+	margin-right: 5px;
+	border-style:none;
+}
 
+#minus1 {
+	border-radius: 100%;
+	width: 60px;
+	margin-left: 5px;
+	border-style:none;
 
+}
 
+.done-p {
+	text-align: center;
+	height: 90px;
+}
 
-
-
+.done-close {
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+		color: #ffffff;
+		border-radius: 30%;
+		width: 100%;
+}
 
 
 

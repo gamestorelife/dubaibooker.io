@@ -127,6 +127,20 @@ $( function() {
 
 $(document).ready(function()
 {
+
+
+
+		$('.menu2').hide();
+		$('.hamburger2').click(function(){
+			$('.menu2').show();
+			
+		})
+		$('.done-close').click(function(){
+			$('.menu2').hide();
+			
+		})
+
+
 		$("#villas-smenu").show();
 		$("#hotels-smenu").hide();
 		$("#apparts-smenu").hide();
@@ -191,6 +205,11 @@ $(document).ready(function()
 	1. Vars and Inits
 
 	*/
+
+
+
+	var menuT =  $('.menu2');
+	var menuTActive = false;
 
 	var menu = $('.menu');
 	var menuActive = false;
@@ -389,6 +408,10 @@ $(document).ready(function()
 	
 		}
 	}
+
+
+
+
 
 	function openMenu()
 	{
