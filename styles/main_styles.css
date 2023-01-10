@@ -1083,11 +1083,30 @@ section
 
 
 
+.msmall-search {
+	display: flex;
+	flex-direction: row-reverse;
+	
+}
+
+#villas-smenu {
+	display: flex;
+	width: 100%;
+	
+}
+
+#apparts-smenu {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
 
 
-
-
-
+#hotels-smenu {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
 
 
 

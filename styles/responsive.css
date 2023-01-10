@@ -234,17 +234,23 @@
 
 	#villas-smenu {
 		width: 100%;
+		display: flex;
+		flex-direction: column;
 	}
 
 
 
 	#apparts-smenu {
 		width: 100%;
+		display: flex;
+		flex-direction: column;
 	}
 
 
 	#hotels-smenu {
 		width: 100%;
+		display: flex;
+		flex-direction: column;
 	}
 
 
@@ -432,6 +438,18 @@
 		width: 34px;
 	}
 
+
+	.msmall-search {
+		width: 100%;
+	}
+
+
+
+
+
+
+
+
 	#roundedk {
 		border-radius: 10px;
 		border-color: white;
@@ -551,6 +569,13 @@
 		opacity: 1;
 		margin-top: 20px;
 	}
+
+
+
+
+
+
+
 
 
 	.menu2 {
