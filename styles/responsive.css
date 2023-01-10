@@ -610,8 +610,10 @@
 	
 }
 .counters-d {
-	text-align: right;
+	text-align: center;
 	display: flex;
+	align-items: center;
+	height: 60px;
 	
 	
 }
@@ -625,6 +627,30 @@
 	height: 50px;
 	
 }
+
+.maintr-kid {
+	
+	
+}
+
+.mkids-age1 {
+	
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	width: 100%;
+}
+
+.mkids-age2 {
+	display: none;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	width: 100%;
+}
+
+
+
 
 
 
@@ -644,15 +670,21 @@
 }
 
 .done-p {
-	text-align: center;
-	height: 90px;
+	text-align: right;
+	padding-top:50px ;
+	
 }
 
 .done-close {
+	text-align: center;
 	background: #722df3;
 		color: #ffffff;
-		border-radius: 30%;
-		width: 100%;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+		
 }
 
 
