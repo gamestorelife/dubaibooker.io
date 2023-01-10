@@ -604,22 +604,27 @@
 	
 }
 #room1 {
-	width:75%;
-	height: 90px;
+	width:50%;
+	height: 30px;
 	text-align:left;
+	margin-left: 20px;
+	font-weight: 800;
 	
 }
 .counters-d {
 	text-align: center;
 	display: flex;
 	align-items: center;
-	height: 60px;
+	height: 70px;
+	width: 100%;
 	
 	
 }
 
 .selec-p {
 	text-align: left;
+	
+	
 	
 	
 }
@@ -642,7 +647,36 @@
 }
 
 .mkids-age2 {
-	display: none;
+	
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	width: 100%;
+}
+
+.mkids-age3 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	width: 100%;
+}
+
+.mkids-age4 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	width: 100%;
+}
+
+.mkids-age5 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	width: 100%;
+	
+}
+
+.mkids-age6 {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
@@ -654,11 +688,21 @@
 
 
 
+
+
+
+
+
+
+
 #add1 {
 	border-radius: 100%;
 	width: 60px;
 	margin-right: 5px;
 	border-style:none;
+	height: 35px;
+	font-weight: 700;
+	text-align: center;
 }
 
 #minus1 {
@@ -666,6 +710,8 @@
 	width: 60px;
 	margin-left: 5px;
 	border-style:none;
+	height: 35px;
+	font-weight: 700;
 
 }
 

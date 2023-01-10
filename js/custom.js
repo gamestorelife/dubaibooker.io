@@ -127,6 +127,85 @@ $( function() {
 
 $(document).ready(function()
 {
+		$('.mkids-age1').hide()
+		$('.mkids-age2').hide()
+		$('.mkids-age3').hide()
+		$('.mkids-age4').hide()
+		$('.mkids-age5').hide()
+		$('.mkids-age6').hide()
+
+		$('.selec-Children').on('change', function() {
+    
+			if ( $('.selec-Children').val() == '0' ) kidz();
+			else if ( $('.selec-Children').val() == '1' ) kid1();
+			else if ( $('.selec-Children').val() == '2' ) kid2();
+			else if ( $('.selec-Children').val() == '3' ) kid3();
+			else if ( $('.selec-Children').val() == '4' ) kid4();
+			else if ( $('.selec-Children').val() == '5' ) kid5();
+			else if ( $('.selec-Children').val() == '6' ) kid6();
+		  });
+
+
+		function kidz() {
+		$('.mkids-age1').hide()
+		$('.mkids-age2').hide()
+		$('.mkids-age3').hide()
+		$('.mkids-age4').hide()
+		$('.mkids-age5').hide()
+		$('.mkids-age6').hide()
+		  }
+		function kid1() {
+			$('.mkids-age1').show()
+			$('.mkids-age2').hide()
+			$('.mkids-age3').hide()
+			$('.mkids-age4').hide()
+			$('.mkids-age5').hide()
+			$('.mkids-age6').hide()
+		  }
+		function kid2() {
+			$('.mkids-age1').show()
+			$('.mkids-age2').show()
+			$('.mkids-age3').hide()
+			$('.mkids-age4').hide()
+			$('.mkids-age5').hide()
+			$('.mkids-age6').hide()
+		}
+		function kid3() {
+			$('.mkids-age1').show()
+			$('.mkids-age2').show()
+			$('.mkids-age3').show()
+			$('.mkids-age4').hide()
+			$('.mkids-age5').hide()
+			$('.mkids-age6').hide()
+		}
+		function kid4() {
+			$('.mkids-age1').show()
+			$('.mkids-age2').show()
+			$('.mkids-age3').show()
+			$('.mkids-age4').show()
+			$('.mkids-age5').hide()
+			$('.mkids-age6').hide()
+		}
+		function kid5() {
+			$('.mkids-age1').show()
+			$('.mkids-age2').show()
+			$('.mkids-age3').show()
+			$('.mkids-age4').show()
+			$('.mkids-age5').show()
+			$('.mkids-age6').hide()
+		}
+		function kid6() {
+			$('.mkids-age1').show()
+			$('.mkids-age2').show()
+			$('.mkids-age3').show()
+			$('.mkids-age4').show()
+			$('.mkids-age5').show()
+			$('.mkids-age6').show()
+		}
+
+
+
+
 
 
 
@@ -184,17 +263,6 @@ $(document).ready(function()
 	  
 
 
-	$(".selec-Children").change(function(){
-        $(this).find("option:selected").each(function(){
-            var optionValue = $(this).attr("value");
-            if(optionValue){
-                $(".box").not("." + optionValue).hide();
-                $("." + optionValue).show();
-            } else{
-                $(".box").hide();
-            }
-        });
-    }).change();
 	  
 
 	
