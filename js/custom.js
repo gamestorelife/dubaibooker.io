@@ -146,6 +146,65 @@ $(document).ready(function()
 		  });
 
 
+
+		$('.red-notification').hide();  
+
+		$('.1stkid').on('change', function(){
+			if ($('.1stkid').val() == '0') doAge();
+			else if ($('.1stkid').val() >= '1') ageDone();
+			
+		});
+
+		$('.2kid').on('change', function(){
+			if ($('.2kid').val() == '0') doAge();
+			else if ($('.2kid').val() == '1') ageDone();
+		})
+
+
+
+
+
+
+		function doAge() {
+			$('.red-notification').show();
+			
+		}
+
+		function ageDone() {
+			$('.red-notification').hide();
+			
+		}
+
+		function hidred() {
+			
+		}
+
+		var countp = document.getElementById('qty1')
+
+
+		$('.done-close').click(function(){
+		if ($('.1stkid').val() == '0') staystill();
+		else if ($('.1stkid').val() >= '1') hideAll();
+
+		
+		else if (countp.value >= '2') hideAll();
+			
+		});
+
+
+
+		function hideAll(){
+			$('.menu2').hide();
+		}
+
+		function staystill() {
+			$('.menu2').show();
+		}
+
+
+
+
+
 		function kidz() {
 		$('.mkids-age1').hide()
 		$('.mkids-age2').hide()
@@ -153,6 +212,9 @@ $(document).ready(function()
 		$('.mkids-age4').hide()
 		$('.mkids-age5').hide()
 		$('.mkids-age6').hide()
+		$('.red-notification').hide();
+		
+		
 		  }
 		function kid1() {
 			$('.mkids-age1').show()
@@ -161,6 +223,7 @@ $(document).ready(function()
 			$('.mkids-age4').hide()
 			$('.mkids-age5').hide()
 			$('.mkids-age6').hide()
+			$('.red-notification').show();
 		  }
 		function kid2() {
 			$('.mkids-age1').show()
@@ -169,6 +232,7 @@ $(document).ready(function()
 			$('.mkids-age4').hide()
 			$('.mkids-age5').hide()
 			$('.mkids-age6').hide()
+			$('.red-notification').show();
 		}
 		function kid3() {
 			$('.mkids-age1').show()
@@ -205,19 +269,18 @@ $(document).ready(function()
 
 
 
-
-		
-
-
 		$('.menu2').hide();
 		$('.hamburger2').click(function(){
 			$('.menu2').show();
 			
 		})
-		$('.done-close').click(function(){
-			$('.menu2').hide();
-			
-		})
+		
+		
+
+
+
+
+
 
 
 		$("#villas-smenu").show();
