@@ -192,17 +192,28 @@ $(document).ready(function()
 			
 			}
 
+		
+		
+			function adulthero () {
+			var countp = document.getElementById('qty1').value
+			if ($('.selec-Children').val() >= '1' & countp == '0') staystill();
+			console.log(countp)
+		}	
 
 
 
-
-		var countp = document.getElementById('qty1')
+		
 
 
 		$('.done-close').click(function(){
+			
+			
+			
 			hero1();
 			hero2();
+			adulthero()
 			
+
 		});
 
 
