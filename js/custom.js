@@ -27,31 +27,6 @@ document.getElementById("apparts-smenu").style.display = "none";
 /**Adults   */
 
 
-$(function()
-{
-   
-
-    $(".minus").click(function()
-    {
-        var currentVal = parseInt($(this).prev(".qty").val());
-        if (currentVal != NaN)
-        {
-            if(currentVal > 0){
-                    $(this).prev(".qty").val(currentVal - 1);
-                }
-
-        }
-    });
-
-	$(".add").click(function()
-    {
-        var currentVal = parseInt($(this).next(".qty").val());
-        if (currentVal != NaN)
-        {
-            $(this).next(".qty").val(currentVal + 1);
-        }
-    });
-});
 
 
 
@@ -66,45 +41,6 @@ $(function()
 
 
 
-
-/** 
-
-
-
-function onClick() {
-  clicks += 1;
-  document.getElementById("clicks").innerHTML = clicks;
-};
-
-function onClick2() {
-  clicks -= 1;
-  document.getElementById("clicks").innerHTML = clicks;
-};
-*/
-
-/**Kids   
-
-var clicks = 0;
-function onClick4() {
-	clicks += 1;
-	document.getElementById("clickskidz").innerHTML = clicks;
-  };
-  
-  function onClick3() {
-	clicks -= 1;
-	document.getElementById("clickskidz").innerHTML = clicks;
-  };
-*/
-/**Rooms   */
-  function onClick6() {
-	clicks += 1;
-	document.getElementById("clicksrooms").innerHTML = clicks;
-  };
-  
-  function onClick5() {
-	clicks -= 1;
-	document.getElementById("clicksrooms").innerHTML = clicks;
-  };
 
 
 
@@ -201,10 +137,12 @@ $(document).ready(function()
 		
 		
 			function adulthero () {
-			var countp = document.getElementById('qty1').value
-			if ($('.selec-Children').val() >= '1' & countp == '0') staystill();
 			
-			console.log(countp)
+
+			
+			if ($('.selec-Children').val() >= '1' & $('.qty').val() == '0') staystill();
+			
+			console.log()
 		}	
 
 
