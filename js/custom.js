@@ -155,9 +155,8 @@ $(document).ready(function()
 			hero2();
 			hero3();
 			hero4();
-			adulthero()
-			
-
+			adulthero();
+	
 		});
 
 
@@ -202,7 +201,8 @@ $(document).ready(function()
 			$('.mkids-age4').hide()
 			$('.mkids-age5').hide()
 			$('.mkids-age6').hide()
-			$('.red-notification').show();
+			if($('.2kid').val() >= '1') ageDone();
+			else if ($('.2kid').val() == '0') doAge();
 		}
 		function kid3() {
 			$('.mkids-age1').show()
