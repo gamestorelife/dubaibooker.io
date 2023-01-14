@@ -157,7 +157,7 @@ $(document).ready(function()
 
 		$('.2kid').on('change', function(){
 			if ($('.2kid').val() == '0') doAge();
-			else if ($('.2kid').val() == '1') ageDone();
+			else if ($('.2kid').val() >= '1') ageDone();
 		})
 
 		$('.3rdkid').on('change', function(){
@@ -186,17 +186,24 @@ $(document).ready(function()
 		else if ($('.1stkid').val() >= '1' & $('.selec-Children').val() >= '1' ) hideAll();
 		}
 		function hero2 () {
-			if ($('.2kid').val() == '0' & $('.selec-Children').val() == '2' ) staystill();
-			else if ($('.2kid').val() == '0' & $('.selec-Children').val() == '2' ) staystill();
+			if ($('.2kid').val() == '0' & $('.selec-Children').val() >= '2' ) staystill();
 			else if ($('.2kid').val() >= '1' & $('.selec-Children').val() >= '2' ) hideAll();
 			
 			}
+		function hero3 () {
+			if ($('.3rdkid').val() == '0' & $('.selec-Children').val() >= '3' ) staystill();
+		}	
+
+		function hero4 () {
+			if ($('.4rthkid').val() == '0' & $('.selec-Children').val() >= '4') staystill();
+		}
 
 		
 		
 			function adulthero () {
 			var countp = document.getElementById('qty1').value
 			if ($('.selec-Children').val() >= '1' & countp == '0') staystill();
+			
 			console.log(countp)
 		}	
 
@@ -207,10 +214,10 @@ $(document).ready(function()
 
 		$('.done-close').click(function(){
 			
-			
-			
 			hero1();
 			hero2();
+			hero3();
+			hero4();
 			adulthero()
 			
 
