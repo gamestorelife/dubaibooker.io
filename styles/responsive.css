@@ -568,10 +568,15 @@
 		color: rgb(255, 255, 255);
 		opacity: 1;
 		margin-top: 20px;
+		height: 50px;
 	}
 
 
-
+	#smview-dash {
+		
+		height: 100%;
+		margin-top: -10px;
+	}
 
 
 
