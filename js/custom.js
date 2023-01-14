@@ -160,6 +160,11 @@ $(document).ready(function()
 			else if ($('.2kid').val() == '1') ageDone();
 		})
 
+		$('.3rdkid').on('change', function(){
+			if($('.3rdkid').val() == '0') doAge();
+			else if ($('.3rdkid').val() >= '1' ) ageDone();
+		})
+
 
 
 
@@ -175,19 +180,28 @@ $(document).ready(function()
 			
 		}
 
-		function hidred() {
-			
+		function hero1 () {
+		if ($('.1stkid').val() == '0' & $('.selec-Children').val() == '0' ) hideAll();
+		else if ($('.1stkid').val() == '0' & $('.selec-Children').val() >= '1' ) staystill();
+		else if ($('.1stkid').val() >= '1' & $('.selec-Children').val() >= '1' ) hideAll();
 		}
+		function hero2 () {
+			if ($('.2kid').val() == '0' & $('.selec-Children').val() == '2' ) staystill();
+			else if ($('.2kid').val() == '0' & $('.selec-Children').val() == '2' ) staystill();
+			else if ($('.2kid').val() >= '1' & $('.selec-Children').val() >= '2' ) hideAll();
+			
+			}
+
+
+
+
 
 		var countp = document.getElementById('qty1')
 
 
 		$('.done-close').click(function(){
-		if ($('.1stkid').val() == '0') staystill();
-		else if ($('.1stkid').val() >= '1') hideAll();
-
-		
-		else if (countp.value >= '2') hideAll();
+			hero1();
+			hero2();
 			
 		});
 
@@ -241,6 +255,7 @@ $(document).ready(function()
 			$('.mkids-age4').hide()
 			$('.mkids-age5').hide()
 			$('.mkids-age6').hide()
+			$('.red-notification').show();
 		}
 		function kid4() {
 			$('.mkids-age1').show()
@@ -249,6 +264,7 @@ $(document).ready(function()
 			$('.mkids-age4').show()
 			$('.mkids-age5').hide()
 			$('.mkids-age6').hide()
+			$('.red-notification').show();
 		}
 		function kid5() {
 			$('.mkids-age1').show()
@@ -257,6 +273,7 @@ $(document).ready(function()
 			$('.mkids-age4').show()
 			$('.mkids-age5').show()
 			$('.mkids-age6').hide()
+			$('.red-notification').show();
 		}
 		function kid6() {
 			$('.mkids-age1').show()
@@ -265,6 +282,7 @@ $(document).ready(function()
 			$('.mkids-age4').show()
 			$('.mkids-age5').show()
 			$('.mkids-age6').show()
+			$('.red-notification').show();
 		}
 
 
