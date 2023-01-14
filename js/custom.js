@@ -100,7 +100,10 @@ $(document).ready(function()
 			if($('.3rdkid').val() == '0') doAge();
 			else if ($('.3rdkid').val() >= '1' ) ageDone();
 		})
-
+		$('.4rthkid').on('change', function(){
+			if($('.4rthkid').val() == '0') doAge();
+			else if($('.4rthkid').val() >= '1') ageDone();
+		})
 
 
 
@@ -135,11 +138,7 @@ $(document).ready(function()
 		}
 
 		
-		
-			function adulthero () {
-			
-
-			
+			function adulthero () {	
 			if ($('.selec-Children').val() >= '1' & $('.qty').val() == '0') staystill();
 			
 			console.log()
@@ -193,7 +192,8 @@ $(document).ready(function()
 			$('.mkids-age4').hide()
 			$('.mkids-age5').hide()
 			$('.mkids-age6').hide()
-			$('.red-notification').show();
+			if($('.1stkid').val() >= '1') ageDone();
+			else if($('.1stkid').val() == '0') doAge();
 		  }
 		function kid2() {
 			$('.mkids-age1').show()
