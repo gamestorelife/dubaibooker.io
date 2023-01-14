@@ -87,13 +87,30 @@ $(document).ready(function()
 
 		$('.1stkid').on('change', function(){
 			if ($('.1stkid').val() == '0') doAge();
-			else if ($('.1stkid').val() >= '1') ageDone();
+			else if ($('.1stkid').val() >= '1') ageNext1();
 			
 		});
+
+		function ageNext1() {
+			if ($('.selec-Children').val() == '2'  &  $('.2kid').val() == '0') doAge();
+			else if ($('.1stkid').val() >= '1' & $('.selec-Children').val() == '1') ageDone();
+			else if($('.1stkid').val() >= '1' & $('.selec-Children').val() == '2') rel1()
+			ageNotek()
+		}
+
+		function rel1() {
+			if ($('.2kid').val() >= '1') ageDone();
+		}
+
+
+
+
+
 
 		$('.2kid').on('change', function(){
 			if ($('.2kid').val() == '0') doAge();
 			else if ($('.2kid').val() >= '1') ageDone();
+			ageNotek()
 		})
 
 		$('.3rdkid').on('change', function(){
@@ -136,7 +153,9 @@ $(document).ready(function()
 		function hero4 () {
 			if ($('.4rthkid').val() == '0' & $('.selec-Children').val() >= '4') staystill();
 		}
-
+		function hero5() {
+			if ($('.5kid').val() == '0' & $('.selec-Children').val() >= '5') staystill();
+		}
 		
 			function adulthero () {	
 			if ($('.selec-Children').val() >= '1' & $('.qty').val() == '0') staystill();
@@ -155,6 +174,7 @@ $(document).ready(function()
 			hero2();
 			hero3();
 			hero4();
+			hero5();
 			adulthero();
 	
 		});
@@ -191,9 +211,14 @@ $(document).ready(function()
 			$('.mkids-age4').hide()
 			$('.mkids-age5').hide()
 			$('.mkids-age6').hide()
+			ageNote1()
+		  }
+
+		function ageNote1() {
 			if($('.1stkid').val() >= '1') ageDone();
 			else if($('.1stkid').val() == '0') doAge();
-		  }
+		}
+
 		function kid2() {
 			$('.mkids-age1').show()
 			$('.mkids-age2').show()
@@ -201,9 +226,20 @@ $(document).ready(function()
 			$('.mkids-age4').hide()
 			$('.mkids-age5').hide()
 			$('.mkids-age6').hide()
+			ageNote2()
+			
+		}
+
+		function ageNote2() {
 			if($('.2kid').val() >= '1') ageDone();
 			else if ($('.2kid').val() == '0') doAge();
 		}
+
+
+		function ageNotek() {
+			if($('.1stkid').val() == '0' & $('.selec-Children').val() >= '1' ) doAge();
+		}
+
 		function kid3() {
 			$('.mkids-age1').show()
 			$('.mkids-age2').show()
