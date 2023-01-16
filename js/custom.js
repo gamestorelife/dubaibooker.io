@@ -92,42 +92,42 @@ $(document).ready(function()
 		});
 		function agelogic1() {
 			if ($('.selec-Children').val() >= '2'  &  $('.2kid').val() == '0') doAge();
-			else if ($('.1stkid').val() >= '1' & $('.selec-Children').val() == '1') ageDone();
-			else if($('.1stkid').val() >= '1' & $('.selec-Children').val() == '2') re1l2();
-			else if($('.1stkid').val() >= '1' & $('.selec-Children').val() == '3') re1l3();
-			else if($('.1stkid').val() >= '1' & $('.selec-Children').val() == '4') re1l4();
-			else if($('.1stkid').val() >= '1' & $('.selec-Children').val() == '5') re1l5();
-			else if($('.1stkid').val() >= '1' & $('.selec-Children').val() == '6') re1l6();	
+			if ($('.selec-Children').val() == '1') ageDone();
+			if ($('.selec-Children').val() == '2') re1l2();
+			if ($('.selec-Children').val() == '3') re1l3();
+			if ($('.selec-Children').val() == '4') re1l4();
+			if ($('.selec-Children').val() == '5') re1l5();
+			if ($('.selec-Children').val() == '6') re1l6();	
 		}
 		function re1l2() {
 			if ($('.2kid').val() == '0') doAge();
-			else if ($('.2kid').val() >= '1') ageDone();
+			else if ($('.2kid').val() >= '1'  &&  $('.1stkid').val() >= '1') ageDone();
 		}
 		function re1l3() {
-			re1l2()
+			if ($('.2kid').val() == '0') doAge();
 			if ($('.3rdkid').val() == '0') doAge();
-			else if ($('.3rdkid').val() >= '1') ageDone();
+			if ($('.3rdkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&  $('.1stkid').val() >= '1') ageDone();
 		}
 		function re1l4() {
-			re1l2()
-			re1l3()
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
 			if ($('.4rthkid').val() == '0') doAge();
-			else if ($('.4rthkid').val() >= '1') ageDone();
+			else if ($('.4rthkid').val() >= '1'  &&  $('.3rdkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&  $('.1stkid').val() >= '1') ageDone();
 		}
 		function re1l5() {
-			re1l2()
-			re1l3()
-			re1l4()
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
+			if ($('.4rthkid').val() == '0') doAge();
 			if ($('.5kid').val() == '0') doAge();
-			else if ($('.5kid').val() >= '1') ageDone();
+			else if ($('.5kid').val() >= '1'  &&  $('.4rthkid').val() >= '1'  &&  $('.3rdkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&  $('.1stkid').val() >= '1') ageDone();
 		}
 		function re1l6() {
-			re1l2()
-			re1l3()
-			re1l4()
-			re1l5()
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
+			if ($('.4rthkid').val() == '0') doAge();
+			if ($('.5kid').val() == '0') doAge();
 			if ($('.6kid').val() == '0') doAge();
-			else if ($('.6kid').val() >= '1') ageDone();
+			else if ($('.6kid').val() >= '1'  &&  $('.5kid').val() >= '1'  &&  $('.4rthkid').val() >= '1'  &&  $('.3rdkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&  $('.1stkid').val() >= '1') ageDone();
 		}
 
 
@@ -140,35 +140,37 @@ $(document).ready(function()
 		function agelogic2() {
 			if ($('.selec-Children').val() >= '2'  &  $('.1stkid').val() == '0') doAge();
 			else if ($('.selec-Children').val() == '2' &  $('.1stkid').val() >= '1' ) ageDone();
-			else if ($('.selec-Children').val() == '3') re2l3();
-			else if ($('.selec-Children').val() == '4') re2l4();
-			else if ($('.selec-Children').val() == '5') re2l5();
-			else if ($('.selec-Children').val() == '6') re2l6();
+			if ($('.selec-Children').val() == '3') re2l3();
+			if ($('.selec-Children').val() == '4') re2l4();
+			if ($('.selec-Children').val() == '5') re2l5();
+			if ($('.selec-Children').val() == '6') re2l6();
 		}
 		function re2l3() {
-			if ($('.1stkid').val() == '0'  &  $('.3rdkid').val() == '0') doAge();
-			else if ($('.1stkid').val() >= '1'  &  $('.3rdkid').val() == '0') doAge();
-			else if ($('.1stkid').val() >= '1'  &  $('.3rdkid').val() >= '1') ageDone();
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
+			if ($('.3rdkid').val() >= '1' &&  $('.2kid').val() >= '1'  &&  $('.1stkid').val() >= '1' ) ageDone();
 		}
 		function re2l4() {
-			re2l3();
+			if ($('.1stkid').val() == '0') doAge();
 			if ($('.4rthkid').val() == '0') doAge();
-			else if ($('.4rthkid').val() >= '1')  ageDone();
+			if ($('.3rdkid').val() == '0') doAge();
+			else if ($('.1stkid').val() >= '1'  &&  $('.3rdkid').val() >= '1' &&  $('.4rthkid').val() >= '1' ) ageDone(); 
+
 		}
 		function re2l5() {
-			re2l4();
-			re2l3();
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.4rthkid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
 			if ($('.5kid').val() == '0') doAge();
-			else if ($('.5kid').val() >= '1') ageDone();
+			else if ($('.5kid').val() >= '1' && $('.1stkid').val() >= '1'  &&  $('.3rdkid').val() >= '1' &&  $('.4rthkid').val() >= '1') ageDone();
 		}
 		function re2l6() {
-			re2l5();
-			
-			re2l3();
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.4rthkid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
+			if ($('.5kid').val() == '0') doAge();
 			if ($('.6kid').val() == '0') doAge();
-			else if ($('.6kid').val() >= '1') ageDone();
-			else if ($('.4rthkid').val() == '0') doAge();
-			else if ($('.4rthkid').val() >= '1')  ageDone();
+			else if ($('.6kid').val() >= '1' && $('.5kid').val() >= '1' && $('.1stkid').val() >= '1'  &&  $('.3rdkid').val() >= '1' &&  $('.4rthkid').val() >= '1') ageDone();
 		}
 
 
@@ -178,32 +180,35 @@ $(document).ready(function()
 			else if ($('.3rdkid').val() >= '1' ) agelogic3();
 		})
 		function agelogic3() {
-			if ($('.1stkid').val() == '0'  &  $('.2kid').val() == '0') doAge();
-			else if ($('.1stkid').val() >= '1'  &  $('.2kid').val() >= '1') ageDone();
-			 else if ($('.selec-Children').val() == '4') re3l4();
-			else if ($('.selec-Children').val() == '5') re3l5();
-			else if ($('.selec-Children').val() == '6') re3l6();
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
+			else if ($('.1stkid').val() >= '1'  &&  $('.2kid').val() >= '1') ageDone();
+			if ($('.selec-Children').val() == '4') re3l4();
+			if ($('.selec-Children').val() == '5') re3l5();
+			if ($('.selec-Children').val() == '6') re3l6();
 		}
 		
 		function re3l4() {
-			
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
 			if ($('.4rthkid').val() == '0') doAge();
-			else if ($('.4rthkid').val() >= '1') ageDone();
-				
+			else if ($('.1stkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&   $('.4rthkid').val() >= '1') agedone();
 			
 		}
 		function re3l5() {
-			re3l4()
-			
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.4rthkid').val() == '0') doAge();
 			if ($('.5kid').val() == '0') doAge();
-			else if ($('.5kid').val() >= '1') ageDone();
+			else if ($('.5kid').val() >= '1'  &&  $('.1stkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&   $('.4rthkid').val() >= '1') ageDone();
 		}
 		function re3l6() {
-			re3l5()
-			re3l4()
-			
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.4rthkid').val() == '0') doAge();
+			if ($('.5kid').val() == '0') doAge();
 			if ($('.6kid').val() == '0') doAge();
-			else if ($('6kid').val() >= '1') ageDone();
+			else if ($('.1stkid').val() >= '1'  &&  $('.2kid').val() >= '1'   &&     $('.4rthkid').val() >= '1'    &&  $('.5kid').val() >= '1' &&  $('6kid').val() >= '1' ) ageDone();
 			
 		}
 
@@ -213,30 +218,75 @@ $(document).ready(function()
 			else if($('.4rthkid').val() >= '1') agelogic4();
 		})
 		function agelogic4() {
-			re2l3();
-			re1l2();
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
+			else if ($('.1stkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&  $('.3rdkid').val() >= '1') ageDone();
 			if ($('.selec-Children').val() == '5') re4l5();
-			else if ($('.selec-Children').val() == '6') re4l6();
+			if ($('.selec-Children').val() == '6') re4l6();
+			
 		}
 		function re4l5() {
-			re2l3();
-			re1l2();
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
 			if ($('.5kid').val() == '0') doAge();
-			else if ($('.5kid').val() >= '1') ageDone();
+			else if ($('.5kid').val() >= '1'  &&  $('.1stkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&   $('.3rdkid').val() >= '1') ageDone();
+			
 		}
 		function re4l6() {
-			re4l5()
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
+			if ($('.5kid').val() == '0') doAge();
 			if ($('.6kid').val() == '0') doAge();
-			else if ($('6kid').val() >= '1') ageDone();
+			else if ($('6kid').val() >= '1'  &&  $('.5kid').val() >= '1'  &&  $('.1stkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&   $('.3rdkid').val() >= '1') ageDone();
 		}
 
 
+		$('.5kid').on('change', function(){
+			if ($('.5kid').val() == '0') doAge();
+			else if ($('.5kid').val() >= '1') agelogic5();
+		})
+		function agelogic5() {
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
+			if ($('.4rthkid').val() == '0') doAge();
+			else if ( $('.1stkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&   $('.3rdkid').val() >= '1'  &&  $('.4rthkid').val() >= '1'  ) ageDone();
+			if ($('.selec-Children').val() == '6') re5l6();
+		}
+		function re5l6() {
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
+			if ($('.4rthkid').val() == '0') doAge();
+			if ($('.6kid').val() == '0') doAge();
+			else if ( $('.1stkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&   $('.3rdkid').val() >= '1'  &&  $('.4rthkid').val() >= '1'  &&  $('6kid').val() >= '1' ) ageDone();
+		}
 
-
-
-
-
-
+		
+		$('.6kid').on('change', function(){
+			if ($('.6kid').val() == '0') doAge();
+			else if ($('.6kid').val()  >= '1') agelogic6();
+		})
+		function agelogic6() {
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
+			if ($('.4rthkid').val() == '0') doAge();
+			if ($('.5kid').val() == '0') doAge();
+			else if ($('.1stkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&   $('.3rdkid').val() >= '1' &&  $('.4rthkid').val() >= '1'  &&   $('.5kid').val() >= '1') ageDone();
+			else if ($('.selec-Children').val() == '6') re6l6();
+		}
+		function re6l6() {
+			if ($('.1stkid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
+			if ($('.3rdkid').val() == '0') doAge();
+			if ($('.4rthkid').val() == '0') doAge();
+			if ($('.5kid').val() == '0') doAge();
+			else if ( $('.1stkid').val() >= '1'  &&  $('.2kid').val() >= '1'  &&   $('.3rdkid').val() >= '1'  &&  $('.4rthkid').val() >= '1'   &&  $('.5kid').val() >= '1' ) ageDone();
+		}
 
 
 
