@@ -126,8 +126,8 @@ $(document).ready(function()
 			re1l3()
 			re1l4()
 			re1l5()
-			if ($('.5kid').val() == '0') doAge();
-			else if ($('.5kid').val() >= '1') ageDone();
+			if ($('.6kid').val() == '0') doAge();
+			else if ($('.6kid').val() >= '1') ageDone();
 		}
 
 
@@ -138,7 +138,7 @@ $(document).ready(function()
 			
 		})
 		function agelogic2() {
-			if ($('.selec-Children').val() == '2'  &  $('.1stkid').val() == '0') doAge();
+			if ($('.selec-Children').val() >= '2'  &  $('.1stkid').val() == '0') doAge();
 			else if ($('.selec-Children').val() == '2' &  $('.1stkid').val() >= '1' ) ageDone();
 			else if ($('.selec-Children').val() == '3') re2l3();
 			else if ($('.selec-Children').val() == '4') re2l4();
@@ -163,16 +163,18 @@ $(document).ready(function()
 		}
 		function re2l6() {
 			re2l5();
-			re2l4();
+			
 			re2l3();
 			if ($('.6kid').val() == '0') doAge();
 			else if ($('.6kid').val() >= '1') ageDone();
+			else if ($('.4rthkid').val() == '0') doAge();
+			else if ($('.4rthkid').val() >= '1')  ageDone();
 		}
 
 
 
 		$('.3rdkid').on('change', function(){
-			if($('.3rdkid').val() == '0'  &  $('.selec-Children').val() >= '3' ) doAge();
+			if($('.3rdkid').val() == '0' ) doAge();
 			else if ($('.3rdkid').val() >= '1' ) agelogic3();
 		})
 		function agelogic3() {
@@ -187,19 +189,19 @@ $(document).ready(function()
 			
 			if ($('.4rthkid').val() == '0') doAge();
 			else if ($('.4rthkid').val() >= '1') ageDone();
-			re3l3();	
+				
 			
 		}
 		function re3l5() {
 			re3l4()
-			re3l3()
+			
 			if ($('.5kid').val() == '0') doAge();
 			else if ($('.5kid').val() >= '1') ageDone();
 		}
 		function re3l6() {
 			re3l5()
 			re3l4()
-			re3l3()
+			
 			if ($('.6kid').val() == '0') doAge();
 			else if ($('6kid').val() >= '1') ageDone();
 			
@@ -280,14 +282,11 @@ $(document).ready(function()
 
 
 		$('.done-close').click(function(){
-			
 			hero1();
 			hero2();
 			hero3();
 			hero4();
 			hero5();
-			
-	
 		});
 
 
@@ -331,19 +330,23 @@ $(document).ready(function()
 		}
 
 		function kid2() {
-			$('.mkids-age1').show()
-			$('.mkids-age2').show()
-			$('.mkids-age3').hide()
-			$('.mkids-age4').hide()
-			$('.mkids-age5').hide()
-			$('.mkids-age6').hide()
-			ageNote2()
+			$('.mkids-age1').show();
+			$('.mkids-age2').show();
+			$('.mkids-age3').hide();
+			$('.mkids-age4').hide();
+			$('.mkids-age5').hide();
+			$('.mkids-age6').hide();
+			
+			ageNote1();
+			ageNote2();
 			
 		}
 
 		function ageNote2() {
-			if($('.2kid').val() >= '1') ageDone();
-			else if ($('.2kid').val() == '0') doAge();
+			if ($('.2kid').val() == '0') doAge();
+			else if($('.2kid').val() >= '1') ageDone();
+			 
+			
 		}
 
 
@@ -356,8 +359,18 @@ $(document).ready(function()
 			$('.mkids-age4').hide()
 			$('.mkids-age5').hide()
 			$('.mkids-age6').hide()
-			$('.red-notification').show();
+			ageNote3();
 		}
+		function ageNote3() {
+			ageNote1();
+			ageNote2();
+			if($('.3rdkid').val() == '0') doAge();
+			else if ($('.3rdkid').val() >= '1') ageDone();
+
+		}
+
+
+
 		function kid4() {
 			$('.mkids-age1').show()
 			$('.mkids-age2').show()
@@ -365,17 +378,37 @@ $(document).ready(function()
 			$('.mkids-age4').show()
 			$('.mkids-age5').hide()
 			$('.mkids-age6').hide()
-			$('.red-notification').show();
+			ageNote4();
 		}
+		function ageNote4() {
+			ageNote1();
+			ageNote2();
+			ageNote3();
+			if ($('.4rthkid').val() == '0') doAge();
+			else if ($('.4rthkid').val() >= '1') ageDone();
+		};
+
+
 		function kid5() {
-			$('.mkids-age1').show()
-			$('.mkids-age2').show()
-			$('.mkids-age3').show()
-			$('.mkids-age4').show()
-			$('.mkids-age5').show()
-			$('.mkids-age6').hide()
-			$('.red-notification').show();
+			$('.mkids-age1').show();
+			$('.mkids-age2').show();
+			$('.mkids-age3').show();
+			$('.mkids-age4').show();
+			$('.mkids-age5').show();
+			$('.mkids-age6').hide();
+			ageNote5();
 		}
+		function ageNote5() {
+			ageNote1();
+			ageNote2()
+			ageNote3();
+			ageNote4();
+			if ($('.5kid').val() == '0') doAge();
+			else if ($('.5kid').val() >= '1') ageDone();
+
+		};
+
+
 		function kid6() {
 			$('.mkids-age1').show()
 			$('.mkids-age2').show()
@@ -383,7 +416,16 @@ $(document).ready(function()
 			$('.mkids-age4').show()
 			$('.mkids-age5').show()
 			$('.mkids-age6').show()
-			$('.red-notification').show();
+			ageNote6();
+		};
+		function ageNote6() {
+			ageNote1();
+			ageNote2();
+			ageNote3();
+			ageNote4();
+			ageNote5();
+			if ($('.6kid').val() == '0') doAge();
+			else if ($('.6kid').val() >= '1') ageDone();
 		}
 
 
@@ -392,7 +434,7 @@ $(document).ready(function()
 		$('.hamburger2').click(function(){
 			$('.menu2').show();
 			
-		})
+		});
 		
 		
 
