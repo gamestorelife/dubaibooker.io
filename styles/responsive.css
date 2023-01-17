@@ -465,7 +465,7 @@
 	#roundedk1 {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.921);
-		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
+		background: rgba(255, 255, 255, 0.408);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -476,7 +476,7 @@
 	#roundedk24 {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.913);
-		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
+		background: rgba(255, 255, 255, 0.43);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -606,7 +606,7 @@
 	.hamburger2 {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
+		background: rgba(255, 255, 255, 0.249);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
