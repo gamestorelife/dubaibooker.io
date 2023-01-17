@@ -453,10 +453,10 @@
 
 	#roundedk {
 		border-radius: 10px;
-		border-color: white;
+		border-color: rgba(255, 255, 255, 0.898);
 		background: linear-gradient(to right, #fa9d1b00, #8d4fff00);
 		border-style: solid ;
-		color: rgb(255, 255, 255);
+		color: rgba(255, 255, 255, 0.883);
 		opacity: 0.7;
 		
 	}
