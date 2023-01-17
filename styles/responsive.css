@@ -822,7 +822,7 @@ table {
 	color: #393333;
 	border-radius: 10px;
 	border-color: white;
-	background: linear-gradient(to right, #fa9d1b00, #8d4fff00);
+	background: rgba(255, 255, 255, 0.494);
 	border-style: solid ;
 	margin-right: 10px;
 	display: block;
@@ -845,8 +845,9 @@ table {
 }
 
 .search_tab_lil.active {
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background: linear-gradient(to right, #fa9d1bca, #8d4fffca);
 	color: #ffffff;
+	opacity: 0.7;
 }
 
 
