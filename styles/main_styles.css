@@ -1080,6 +1080,9 @@ section
 	color: #ffffff;
 }
 
+.menu-nav {
+	padding-top: 20px;
+}
 
 
 
@@ -1091,7 +1094,8 @@ section
 
 #villas-smenu {
 	display: flex;
-	width: 100%;
+	width: 70%;
+	
 	
 }
 
@@ -1216,8 +1220,7 @@ section
     -ms-appearance:none;
     -o-appearance:none;
     appearance:none;
-	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-	-webkit-user-select: none;
+	
 	background-image: url(../images/dropdown.png);
 	background-position: center right;
 	background-repeat: no-repeat;
