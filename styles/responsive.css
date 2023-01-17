@@ -453,10 +453,10 @@
 
 	#roundedk {
 		border-radius: 10px;
-		border-color: rgba(255, 255, 255, 0.898);
+		border-color: rgba(255, 255, 255, 0.982);
 		background: linear-gradient(to right, #fa9d1b00, #8d4fff00);
 		border-style: solid ;
-		color: rgba(255, 255, 255, 0.883);
+		color: rgba(255, 255, 255, 0.961);
 		opacity: 0.7;
 		
 	}
@@ -467,7 +467,7 @@
 		border-color: rgba(255, 255, 255, 0.921);
 		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
 		border-style: solid ;
-		color: rgba(255, 255, 255, 0.918);
+		color: rgb(255, 255, 255);
 		opacity: 0.7;
 	} 
 
@@ -478,7 +478,7 @@
 		border-color: rgba(255, 255, 255, 0.913);
 		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
 		border-style: solid ;
-		color: rgba(255, 255, 255, 0.904);
+		color: rgb(255, 255, 255);
 		opacity: 0.7;
 		
 	}
@@ -593,7 +593,7 @@
 	.search_item-count {
 		
 		border-radius: 10px;
-		border-color: white;
+		border-color: rgba(255, 255, 255, 0.856);
 		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
@@ -605,11 +605,11 @@
 
 	.hamburger2 {
 		border-radius: 10px;
-		border-color: white;
+		border-color: rgba(255, 255, 255, 0.871);
 		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
-		opacity: 0.7;
+		opacity: 0.9;
 		margin-top: 20px;
 		height: 50px;
 	}
