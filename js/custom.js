@@ -337,7 +337,22 @@ $(document).ready(function()
 			hero3();
 			hero4();
 			hero5();
+			allpersons();
 		});
+
+		function allpersons() {
+			var tradults = $("#qty1").val();
+			var allkids = $(".selec-Children").val();
+
+			document.getElementById("aladults").innerHTML = tradults;
+			document.getElementById("alkids").innerHTML = allkids;
+			
+		}
+
+
+
+
+
 
 
 
