@@ -464,10 +464,10 @@
 
 	#roundedk1 {
 		border-radius: 10px;
-		border-color: white;
+		border-color: rgba(255, 255, 255, 0.921);
 		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
 		border-style: solid ;
-		color: rgb(255, 255, 255);
+		color: rgba(255, 255, 255, 0.918);
 		opacity: 0.7;
 	} 
 
@@ -475,10 +475,10 @@
 
 	#roundedk24 {
 		border-radius: 10px;
-		border-color: white;
+		border-color: rgba(255, 255, 255, 0.913);
 		background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
 		border-style: solid ;
-		color: rgb(255, 255, 255);
+		color: rgba(255, 255, 255, 0.904);
 		opacity: 0.7;
 		
 	}
