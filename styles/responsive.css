@@ -606,7 +606,7 @@
 	.hamburger2 {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.187);
+		background: rgba(255, 255, 255, 0.237);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -822,7 +822,7 @@ table {
 	color: #ffffff;
 	border-radius: 10px;
 	border-color: white;
-	background: rgba(255, 255, 255, 0.494);
+	background: rgba(255, 255, 255, 0.209);
 	border-style: solid ;
 	margin-right: 10px;
 	display: block;
