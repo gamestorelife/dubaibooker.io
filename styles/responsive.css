@@ -803,7 +803,7 @@ table {
 
 	#roundedk.active
 	{
-		background: #fa9e1b;
+		background: linear-gradient(90deg, rgba(200,155,84,1) 18%, rgba(236,218,112,1) 52%, rgba(213,169,73,1) 84%);
 		color: #ffffff;
 	}
 
@@ -845,7 +845,7 @@ table {
 }
 
 .search_tab_lil.active {
-	background: #fa9d1bca;
+	background: linear-gradient(90deg, rgba(200,155,84,1) 18%, rgba(236,218,112,1) 52%, rgba(213,169,73,1) 84%);
 	color: #ffffff;
 	
 }
@@ -878,22 +878,22 @@ table {
 
 
 .menu-nav a:nth-child(1):hover{
-	background: #fa9e1b;
+	background: linear-gradient(90deg, rgba(200,155,84,1) 18%, rgba(236,218,112,1) 52%, rgba(213,169,73,1) 84%);
 	color: #ffffff;
 	transition: background-color 1s ease;
 }
 .menu-nav a:nth-child(2):hover{
-	background: #fa9e1b;
+	background: linear-gradient(90deg, rgba(200,155,84,1) 18%, rgba(236,218,112,1) 52%, rgba(213,169,73,1) 84%);
 	color: #ffffff;
 }
 .menu-nav a:nth-child(3):hover{
-	background: #fa9e1b;
+	background: linear-gradient(90deg, rgba(200,155,84,1) 18%, rgba(236,218,112,1) 52%, rgba(213,169,73,1) 84%);
 	color: #ffffff;
 }
 
 .menu-nav a:nth-child(1):active {
 	width: 500px;
-	background: #fa9e1b;
+	background: linear-gradient(90deg, rgba(200,155,84,1) 18%, rgba(236,218,112,1) 52%, rgba(213,169,73,1) 84%);
 	transition: background-color 1s ease;
 	color: #ffffff;
 	
