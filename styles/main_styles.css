@@ -1086,18 +1086,6 @@ section
 
 
 
-.msmall-search {
-	display: flex;
-	flex-direction: row-reverse;
-	
-}
-
-
-
-
-#d-villa {
-	height: 150px;
-}
 
 
 
@@ -1105,25 +1093,16 @@ section
 
 
 
-#villas-smenu {
-	display: flex;
-	width: 70%;
-	
-	
-}
-
-#apparts-smenu {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-}
 
 
-#hotels-smenu {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-}
+
+
+
+
+
+
+
+
 
 
 
