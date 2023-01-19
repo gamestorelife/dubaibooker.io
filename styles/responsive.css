@@ -471,16 +471,18 @@
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
+		border-width: 5px;
 		
 	}
 
 	#roundedk-in {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
+
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		width: 95%;
+		width: 100%;
 		
 		
 		
@@ -492,9 +494,9 @@
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		width: 95%;
+		width: 100%;
 		
-		margin-left: 5px;
+		
 		
 		
 	}
