@@ -340,22 +340,12 @@
 }
 
 /************
-7. 959px
+7. 900px
 ************/
 
-@media only screen and (max-width: 959px)
-{
-	#main2img {
-		background-image: url(../images/Menu-img.jpeg);
-		background-size: 100%;
-	}
-}
 
-/************
-8. 880px
-************/
 
-@media only screen and (max-width: 820px)
+@media only screen and (max-width: 900px)
 {
 	.hamburger2 {
 		border-radius: 10px;

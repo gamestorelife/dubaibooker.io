@@ -1052,7 +1052,7 @@ section
 	background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
 	border-style: solid ;
 	margin-right: 10px;
-	display: block;
+	display: flex;
 	margin-top: -10px;
 	font-size: 10px;
 	font-weight: 700;
