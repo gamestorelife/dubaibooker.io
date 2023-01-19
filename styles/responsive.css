@@ -255,7 +255,11 @@
 	}
 
 
-
+	.check-in {
+		width: 100%;
+		display: flex;
+		
+	}
 
 
 
@@ -468,8 +472,33 @@
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
 		
+	}
+
+	#roundedk-in {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.982);
+		background: rgba(255, 255, 255, 0.136);
+		border-style: solid ;
+		color: rgba(255, 255, 255, 0.961);
+		width: 95%;
+		
+		
 		
 	}
+
+	#roundedk-out {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.982);
+		background: rgba(255, 255, 255, 0.136);
+		border-style: solid ;
+		color: rgba(255, 255, 255, 0.961);
+		width: 95%;
+		
+		margin-left: 5px;
+		
+		
+	}
+
 
 
 	#roundedk1 {
