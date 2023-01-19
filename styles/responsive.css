@@ -267,11 +267,9 @@
 	.search_item
 	{
 		width: 100% !important;
-		margin-bottom: 10px;
-		
-		
 		
 	}
+	
 	.search_item:last-child
 	{
 		margin-bottom: 0px;
@@ -406,7 +404,7 @@
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		width: 100%;
+		
 		
 		
 		
@@ -419,7 +417,7 @@
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		width: 100%;
+		
 		
 		
 		
@@ -1026,7 +1024,7 @@ table {
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		width: 100%;
+		
 		
 		
 		
@@ -1039,7 +1037,7 @@ table {
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		width: 100%;
+		
 		
 		
 		
