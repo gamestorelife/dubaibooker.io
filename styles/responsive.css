@@ -369,7 +369,7 @@
 
 	#roundedk {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
@@ -382,10 +382,11 @@
 	#roundedk-in {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
-		border-width: 2px;
+		border-width: 0.5px;
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
+		width: 100%;
 		
 		
 		
@@ -394,7 +395,7 @@
 
 	#roundedk-out {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
@@ -410,7 +411,7 @@
 
 	#roundedk1 {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
 		background: rgba(255, 255, 255, 0.129);
 		border-style: solid ;
@@ -422,7 +423,7 @@
 
 	#roundedk24 {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.913);
 		background: rgba(240, 233, 233, 0.904);
 		border-style: solid ;
@@ -567,7 +568,7 @@
 
 	.hamburger2 {
 		border-radius: 10px;
-		border-width: 2px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: rgba(255, 255, 255, 0.237);
 		border-style: solid ;
@@ -784,7 +785,7 @@ table {
 	padding:10px;
 	color: #ffffff;
 	border-radius: 10px;
-	border-width: 2px;
+	border-width: 0.5px;
 	border-color: white;
 	background: rgba(255, 255, 255, 0.209);
 	border-style: solid ;
@@ -938,12 +939,12 @@ table {
 
 	#roundedk {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		
+		width: 100%;
 		
 		
 	}
@@ -951,11 +952,11 @@ table {
 	#roundedk-in {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
-		border-width: 1px;
+		border-width: 0.5px;
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		
+		width: 100%;
 		
 		
 		
@@ -963,7 +964,7 @@ table {
 
 	#roundedk-out {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
@@ -979,7 +980,7 @@ table {
 
 	#roundedk1 {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
 		background: rgba(255, 255, 255, 0.129);
 		border-style: solid ;
@@ -991,7 +992,7 @@ table {
 
 	#roundedk24 {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.913);
 		background: rgba(240, 233, 233, 0.904);
 		border-style: solid ;
@@ -1136,7 +1137,7 @@ table {
 
 	.hamburger2 {
 		border-radius: 10px;
-		border-width: 2px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: rgba(255, 255, 255, 0.237);
 		border-style: solid ;
@@ -1353,7 +1354,7 @@ table {
 	padding:10px;
 	color: #ffffff;
 	border-radius: 10px;
-	border-width: 2px;
+	border-width: 0.5px;
 	border-color: white;
 	background: rgba(255, 255, 255, 0.209);
 	border-style: solid ;
@@ -1506,12 +1507,12 @@ table {
 
 	#roundedk {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		
+		width: 100%;
 		
 		
 	}
@@ -1519,11 +1520,11 @@ table {
 	#roundedk-in {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
-		border-width: 1px;
+		border-width: 0.5px;
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		
+		width: 100%;
 		
 		
 		
@@ -1531,7 +1532,7 @@ table {
 
 	#roundedk-out {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
@@ -1547,7 +1548,7 @@ table {
 
 	#roundedk1 {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
 		background: rgba(255, 255, 255, 0.129);
 		border-style: solid ;
@@ -1559,7 +1560,7 @@ table {
 
 	#roundedk24 {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.913);
 		background: rgba(240, 233, 233, 0.904);
 		border-style: solid ;
@@ -1704,7 +1705,7 @@ table {
 
 	.hamburger2 {
 		border-radius: 10px;
-		border-width: 2px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: rgba(255, 255, 255, 0.237);
 		border-style: solid ;
@@ -1921,7 +1922,7 @@ table {
 	padding:10px;
 	color: #ffffff;
 	border-radius: 10px;
-	border-width: 2px;
+	border-width: 0.5px;
 	border-color: white;
 	background: rgba(255, 255, 255, 0.209);
 	border-style: solid ;
@@ -2102,12 +2103,12 @@ table {
 
 	#roundedk {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		
+		width: 100%;
 		
 		
 	}
@@ -2115,11 +2116,11 @@ table {
 	#roundedk-in {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
-		border-width: 1px;
+		border-width: 0.5px;
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		
+		width: 100%;
 		
 		
 		
@@ -2127,12 +2128,12 @@ table {
 
 	#roundedk-out {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
 		background: rgba(255, 255, 255, 0.136);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-			
+		width: 100%;	
 		
 	}
 
@@ -2140,24 +2141,26 @@ table {
 
 	#roundedk1 {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
 		background: rgba(255, 255, 255, 0.129);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
+		width: 100%;
 	} 
 
 
 
 	#roundedk24 {
 		border-radius: 10px;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.913);
 		background: rgba(255, 255, 255, 0.145);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
+		width: 100%;
 		
 	}
 
@@ -2283,7 +2286,7 @@ table {
 
 	.hamburger2 {
 		border-radius: 10px;
-		border-width: 2px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: rgba(255, 255, 255, 0.237);
 		border-style: solid ;
@@ -2513,7 +2516,7 @@ table {
 	padding:10px;
 	color: #ffffff;
 	border-radius: 10px;
-	border-width: 2px;
+	border-width: 0.5px;
 	border-color: white;
 	background: rgba(255, 255, 255, 0.209);
 	border-style: solid ;
