@@ -26,9 +26,11 @@
 2. 1440px
 ************/
 
-@media only screen and (max-width: 1440px)
+@media screen and (max-width: 4100px) and (min-width: 1190px), (min-width: 4200px)
 {
-	
+	#main2img {
+		display: none;
+	}
 }
 
 /************
@@ -73,25 +75,9 @@
 4. 1199px
 ************/
 
-@media only screen and (max-width: 1199px)
+@media only screen and (max-width: 1200px)
 {
-	.main_nav_container
-	{
-		margin-right: 121px;
-	}
-	.home_slider_content h1:first-child
-	{
-		font-size: 92px;
-	}
-	.home_slider_content h1:nth-child(2)
-	{
-		font-size: 80px;
-		margin-top: -24px;
-	}
-	.footer_blog_content
-	{
-		padding-left: 74px;
-	}
+	
 }
 
 /************
@@ -332,12 +318,12 @@
 }
 
 /************
-7. 900px
+7. 1180px
 ************/
 
 
 
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 1190px)
 {
 	.hamburger2 {
 		border-radius: 10px;
