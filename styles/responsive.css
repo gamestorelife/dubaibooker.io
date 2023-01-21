@@ -328,7 +328,7 @@
 	.hamburger2 {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.237);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -357,7 +357,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.136);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -369,7 +369,7 @@
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.136);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -383,7 +383,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.136);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		
@@ -399,7 +399,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
-		background: rgba(255, 255, 255, 0.129);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -411,7 +411,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.913);
-		background: rgba(240, 233, 233, 0.904);
+		background: rgba(240, 233, 233, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -419,7 +419,7 @@
 	}
 
 	.ui-datepicker {
-		background: rgba(255, 255, 255, 0.863);
+		background: rgba(255, 255, 255, 0.25);
 		border: 1px solid #555;
 		color: rgb(0, 0, 0);
 		display: flex;
@@ -556,7 +556,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.237);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -773,7 +773,7 @@ table {
 	border-radius: 10px;
 	border-width: 0.5px;
 	border-color: white;
-	background: rgba(255, 255, 255, 0.209);
+	background: rgba(255, 255, 255, 0.35);
 	border-style: solid ;
 	margin-right: 10px;
 	display: block;
@@ -902,7 +902,7 @@ table {
 	.hamburger2 {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.237);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -927,7 +927,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.136);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -939,7 +939,7 @@ table {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.136);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -952,7 +952,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.136);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		
@@ -968,7 +968,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
-		background: rgba(255, 255, 255, 0.129);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -980,7 +980,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.913);
-		background: rgba(240, 233, 233, 0.904);
+		background: rgba(240, 233, 233, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -1125,7 +1125,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.237);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -1342,7 +1342,7 @@ table {
 	border-radius: 10px;
 	border-width: 0.5px;
 	border-color: white;
-	background: rgba(255, 255, 255, 0.209);
+	background: rgba(255, 255, 255, 0.35);
 	border-style: solid ;
 	margin-right: 10px;
 	display: block;
@@ -1466,7 +1466,7 @@ table {
 	.hamburger2 {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.237);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -1495,7 +1495,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.136);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -1507,7 +1507,7 @@ table {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.136);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -1520,7 +1520,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.136);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		
@@ -1536,7 +1536,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
-		background: rgba(255, 255, 255, 0.129);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -1548,7 +1548,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.913);
-		background: rgba(240, 233, 233, 0.904);
+		background: rgba(240, 233, 233, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -1556,7 +1556,7 @@ table {
 	}
 
 	.ui-datepicker {
-		background: rgba(255, 255, 255, 0.863);
+		background: rgba(255, 255, 255, 0.25);
 		border: 1px solid #555;
 		color: rgb(0, 0, 0);
 		display: flex;
@@ -1693,7 +1693,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.237);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -1910,7 +1910,7 @@ table {
 	border-radius: 10px;
 	border-width: 0.5px;
 	border-color: white;
-	background: rgba(255, 255, 255, 0.209);
+	background: rgba(255, 255, 255, 0.35);
 	border-style: solid ;
 	margin-right: 10px;
 	display: block;
@@ -2090,8 +2090,8 @@ table {
 	#roundedk {
 		border-radius: 10px;
 		border-width: 0.5px;
-		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.136);
+		border-color: rgba(255, 255, 255, 0.25);
+		background: rgba(255, 255, 255, 0.35);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -2103,7 +2103,7 @@ table {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.136);
+		background: rgba(255, 255, 255, 0.33);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -2116,7 +2116,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.136);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;	
@@ -2129,7 +2129,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
-		background: rgba(255, 255, 255, 0.129);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -2142,7 +2142,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.913);
-		background: rgba(255, 255, 255, 0.145);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -2274,7 +2274,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.237);
+		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -2504,7 +2504,7 @@ table {
 	border-radius: 10px;
 	border-width: 0.5px;
 	border-color: white;
-	background: rgba(255, 255, 255, 0.209);
+	background: rgba(255, 255, 255, 0.35);
 	border-style: solid ;
 	margin-right: 10px;
 	display: block;
