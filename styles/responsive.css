@@ -154,9 +154,7 @@
 	}
 
 	
-	.check_in {
-		width: 100%;
-	}
+	
 
 
 
@@ -327,6 +325,16 @@
 
 @media only screen and (max-width: 1190px)
 {
+
+
+	.search_item
+	{
+		width: 100% !important;
+		
+	}
+
+
+
 	.hamburger2 {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.871);
@@ -896,6 +904,16 @@ table {
 
 @media only screen and (max-width: 768px)
 {
+
+	.search_item
+	{
+		width: 100% !important;
+		
+	}
+
+
+
+
 	#main2img {
 		background-image: url(../images/Menu-img.jpeg);
 		background-size: 100%;
@@ -1455,6 +1473,13 @@ table {
 
 @media only screen and (max-width: 767px)
 {
+
+	.search_item
+	{
+		width: 100% !important;
+		
+	}
+
 	.intro_item
 	{
 		height: 599px;
@@ -2855,7 +2880,11 @@ table {
 @media only screen and (max-width: 479px)
 {
 
-
+	.search_item
+	{
+		width: 100% !important;
+		
+	}
 
 
 	.search_item1 {
