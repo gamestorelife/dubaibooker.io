@@ -2855,10 +2855,7 @@ table {
 
 @media only screen and (max-width: 539px)
 {
-	#main2img {
-		background-image: url(../images/Menu-img.jpeg);
-		background-size: 100%;
-	}
+	
 }
 
 /************
@@ -2867,10 +2864,7 @@ table {
 
 @media only screen and (max-width: 480px)
 {
-	#main2img {
-		background-image: url(../images/Menu-img.jpeg);
-		background-size: 100%;
-	}
+	
 }
 
 /************
@@ -2880,11 +2874,7 @@ table {
 @media only screen and (max-width: 479px)
 {
 
-	.search_item
-	{
-		width: 100% !important;
-		
-	}
+	
 
 
 	.search_item1 {
