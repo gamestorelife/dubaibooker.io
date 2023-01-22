@@ -27,6 +27,13 @@
 
 @media only screen and (max-width: 1730px)
 {
+
+
+
+	.offer_name {
+		color: #FFFFFF;
+	}
+
 	.temp_col
 	{
 		display: none !important;
