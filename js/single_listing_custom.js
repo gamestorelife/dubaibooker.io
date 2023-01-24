@@ -13,6 +13,7 @@
 7. Init Lightbox
 8. Init Google Map
 9. Init Search Form
+10.Image slider
 
 
 ******************************/
@@ -283,6 +284,10 @@ $(document).ready(function()
 
 	*/
 
+
+
+
+
 	function initLightbox()
 	{
 		if($('.cboxElement').length)
@@ -381,4 +386,25 @@ $(document).ready(function()
 			});	
 		}
 	}
+
+
+	$(".image-slid").hide();
+
+	$('.toslider').on('click', function(){
+		$(".image-slid").show();
+	})
+
+$('.closeimg').on('click', function(){
+	$(".image-slid").hide();
+})
+
+
+	var swiper = new Swiper(".mySwiper", {});
+
+
+
+
+
+
+
 });

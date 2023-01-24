@@ -577,8 +577,7 @@ $(document).ready(function()
 
 
 
-	var menuT =  $('.menu2');
-	var menuTActive = false;
+
 
 	var menu = $('.menu');
 	var menuActive = false;
