@@ -30,18 +30,19 @@
 
 	.closeimg {
 		font-weight: 900;
-		color: #350a4e;
-		font-size: 20px;
-		margin-top: -150px;
+		color: #4e4e0a;
+		font-size: 25px;
+		margin-top: -50px;
 		padding-left: 10px;
 		z-index: 10;
+		margin-left: 850px;
 	}
 
 	
 	.swiper {
         width: 96%;
         height: 96%;
-		margin-top: -100px;
+		margin-top: 20px;
 		margin-bottom: 20px;
 		align-items: center;
       }
@@ -464,6 +465,19 @@
 
 @media only screen and (max-width: 575px)
 {
+	.closeimg {
+		font-weight: 900;
+		color: #4e4e0a;
+		font-size: 25px;
+		margin-top: -320px;
+		padding-left: 10px;
+		z-index: 10;
+		margin-left: 380px;
+	}
+
+
+
+
 	p{font-size: 13px;}
 	h1{font-size: 28px;}
 	.top_bar
