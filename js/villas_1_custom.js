@@ -394,6 +394,13 @@ $(document).ready(function()
 		$(".image-slid").show();
 	})
 
+	$('.hotel_image').on('click', function(){
+		$(".image-slid").show();
+	})
+
+
+
+
 $('.closeimg').on('click', function(){
 	$(".image-slid").hide();
 })
