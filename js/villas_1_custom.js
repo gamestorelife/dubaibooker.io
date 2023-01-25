@@ -388,7 +388,7 @@ $(document).ready(function()
 	}
 
 
-	$(".image-slid").show();
+	$(".image-slid").hide();
 
 	$('.image-box').on('click', function(){
 		$(".image-slid").show();

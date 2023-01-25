@@ -14,6 +14,10 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/single_villas1_listing_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/single_villas1_listing_responsive.css">
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 </head>
 
 <body>
@@ -168,7 +172,47 @@
 								</div>
 							</div>
 
-							<!-- Listing Image -->
+							<!-- Listing slid -->
+
+							<div class="image-slid trans_500">
+								<div  ><a class="closeimg">
+									<p class="closeic">X</p>
+								</a></div>
+								
+
+								<div class="swiper mySwiper">
+									<div class="swiper-wrapper">
+									  <div class="swiper-slide">
+										  
+										  <div style="align-items: center; display: flex;">
+											  <div></div>
+											  <img src="./images/villa-2-listing_1.jpg">
+										  </div>
+									  </div>
+									  <div class="swiper-slide">
+										  <div>
+											  <div></div>
+											  <img src="./images/villa-3-listing_8.jpg">
+										  </div>
+										  
+									  </div>
+									  <div class="swiper-slide">
+										<div>
+											<img src="./images/villa-3-listing_1.jpg">
+										</div>
+										
+									</div>
+									  
+									  <div class="swiper-slide">Slide 7</div>
+									  <div class="swiper-slide">Slide 8</div>
+									  <div class="swiper-slide">Slide 9</div>
+									</div>
+								  </div>
+								
+							</div>
+
+							
+
 
 							<div class="hotel_image">
 								<img src="images/listing_villas-11.jpg" alt="">
@@ -597,7 +641,11 @@
 <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
-<script src="js/single_listing_custom.js"></script>
+<script src="js/villas_1_custom.js"></script>
+<script>
+	var swiper = new Swiper(".mySwiper", {});
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 </body>
 
