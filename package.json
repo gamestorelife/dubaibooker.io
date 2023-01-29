@@ -1,0 +1,23 @@
+{
+  "name": "dubaibooker.io",
+  "version": "1.0.0",
+  "description": "Travel And Turism",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamestorelife/dubaibooker.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamestorelife/dubaibooker.io/issues"
+  },
+  "homepage": "https://github.com/gamestorelife/dubaibooker.io#readme",
+  "dependencies": {
+    "jquery": "^3.6.3",
+    "zebra_datepicker": "^1.9.19"
+  }
+}

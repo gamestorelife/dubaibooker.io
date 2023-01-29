@@ -551,7 +551,14 @@ $(document).ready(function()
     }).change();
 	  
 
-
+	$('#roundedk-in').Zebra_DatePicker({
+		direction: true,
+		pair: $('#roundedk-out')
+	});
+	 
+	$('#roundedk-out').Zebra_DatePicker({
+		direction: 1
+	});
 	  
 
 	
