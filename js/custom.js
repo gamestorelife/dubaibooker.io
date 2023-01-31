@@ -46,7 +46,16 @@ document.getElementById("apparts-smenu").style.display = "none";
 
 
 
-
+$(function() { 
+	$('.menu2').addClass('hiddenm');
+	$('.mkids-age1').hide();
+	$('.mkids-age2').hide();
+	$('.mkids-age3').hide();
+	$('.mkids-age4').hide();
+	$('.mkids-age5').hide();
+	$('.mkids-age6').hide();
+	$('.red-notification').hide();
+ });
 
 
 
@@ -59,12 +68,7 @@ document.getElementById("apparts-smenu").style.display = "none";
 
 $(document).ready(function()
 {
-		$('.mkids-age1').hide()
-		$('.mkids-age2').hide()
-		$('.mkids-age3').hide()
-		$('.mkids-age4').hide()
-		$('.mkids-age5').hide()
-		$('.mkids-age6').hide()
+		
 
 		$('.selec-Children').on('change', function() {
     
@@ -78,7 +82,7 @@ $(document).ready(function()
 		  });
 
 
-		$('.red-notification').hide();  
+		  
 
 
 		$('.1stkid').on('change', function(){
@@ -491,7 +495,7 @@ $(document).ready(function()
 
 
 
-		$('.menu2').hide();
+		
 		$('.hamburger2').click(function(){
 			$('.menu2').show();
 			
