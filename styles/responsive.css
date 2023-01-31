@@ -241,7 +241,9 @@
 		align-items: center;
 		
 	}
-
+	.check-in>div:first-child{ 
+		margin-right:10px;  
+	} 
 
 
 	.search_item
@@ -590,7 +592,9 @@
 	}
 
 
-
+	.hiddenm {
+		display: none;
+	  }
 
 
 
