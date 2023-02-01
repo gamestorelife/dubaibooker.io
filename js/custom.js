@@ -554,20 +554,33 @@ $(document).ready(function()
 	$('#roundedk-in').Zebra_DatePicker({
 		direction: true,
 		pair: $('#roundedk-out')
-	});
-	 
+	}); 
 	$('#roundedk-out').Zebra_DatePicker({
 		direction: 1
 	});
 	  
 
 	
+	$('#roundedk-hotl-in').Zebra_DatePicker({
+		direction: true,
+		pair: $('#roundedk-hotl-out')
+	}); 
+	$('#roundedk-hotl-out').Zebra_DatePicker({
+		direction: 1
+	});
 
 
+	$('#roundedk-apart-in').Zebra_DatePicker({
+		direction: true,
+		pair: $('#roundedk-apart-out')
+	}); 
+	$('#roundedk-apart-out').Zebra_DatePicker({
+		direction: 1
+	});
 
 
-
-
+		
+	$('#roundedk-activity').Zebra_DatePicker();
 
 
 
