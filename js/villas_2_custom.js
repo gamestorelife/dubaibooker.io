@@ -401,7 +401,7 @@ $(document).ready(function()
 
 
 
-$('.closeimg').on('click', function(){
+$('#closeimg').on('click', function(){
 	$(".image-slid").hide();
 })
 

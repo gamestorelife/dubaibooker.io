@@ -28,8 +28,6 @@
 @media only screen and (max-width: 1730px)
 {
 
-	
-
 	.closeimg {
 		font-weight: 500;
 		color: #4e4e0a;
@@ -42,18 +40,11 @@
 
 
 
-	.swiper-wrapper {
-		background-color: blue; 
-		height: fit-content;
-		
-	}
-
-
+	
 	
 	.swiper {
-		background-color: #8d4fff;
         width: 96%;
-        
+        height: 96%;
 		
 		align-items: center;
       }
@@ -61,7 +52,7 @@
       .swiper-slide {
         text-align: center;
         font-size: 18px;
-        background: rgba(255, 255, 255, 0);
+        background: rgba(195, 69, 69, 0);
 
         /* Center slide text vertically */
         display: -webkit-box;
@@ -87,6 +78,7 @@
 
 
 	.image-slid {
+		display: none;
 		width: 100%;
 		height: 100%;
 		position: fixed;
@@ -287,7 +279,6 @@
 		padding-left: 10px;
 		z-index: 10;
 		margin-left: 1070px;
-		position: fixed;
 	}
 	.image-slid {
 		padding-top: 10%;
@@ -330,7 +321,6 @@
 {
 
 	.image-slid {
-		display: none;
 		width: 100%;
 		height: 100%;
 		position: fixed;
@@ -350,19 +340,11 @@
         width: 96%;
         height: 96%;
 		margin-top: -40px;
-		
 		align-items: center;
       }
 
-	  .closeimg {
-		font-weight: 400;
-		color: #4e4e0a;
-		font-size: 25px;
-		margin-top: -365px;
-		padding-left: 10px;
-		z-index: 10;
-		margin-left: 865px;
-	}
+	  
+	
 
 
 
@@ -530,15 +512,7 @@
 
 @media only screen and (max-width: 575px)
 {
-	.closeimg {
-		font-weight: 400;
-		color: #4e4e0a;
-		font-size: 25px;
-		margin-top: -320px;
-		padding-left: 10px;
-		z-index: 10;
-		margin-left: 380px;
-	}
+	
 
 
 
@@ -720,15 +694,7 @@
 
 @media only screen and (max-width: 480px)
 {
-	.closeimg {
-		font-weight: 400;
-		color: #4e4e0a;
-		font-size: 25px;
-		margin-top: -597px;
-		padding-left: 10px;
-		z-index: 10;
-		margin-left: 380px;
-	}
+	
 }
 
 /************
@@ -740,15 +706,7 @@
 	h2{font-size: 24px;}
 	p{font-size: 13px;}
 
-	.closeimg {
-		font-weight: 400;
-		color: #4e4e0a;
-		font-size: 25px;
-		margin-top: -600px;
-		padding-left: 10px;
-		z-index: 10;
-		margin-left: 377px;
-	}
+	
 }
 
 /************
@@ -757,42 +715,18 @@
 
 @media only screen and (max-width: 400px)
 {
-	.closeimg {
-		font-weight: 400;
-		color: #4e4e0a;
-		font-size: 25px;
-		margin-top: -570px;
-		padding-left: 10px;
-		z-index: 10;
-		margin-left: 357px;
-	}
+	
 	
 }
 
 @media only screen and (max-width: 380px)
 {
-	.closeimg {
-		font-weight: 400;
-		color: #4e4e0a;
-		font-size: 25px;
-		margin-top: -475px;
-		padding-left: 10px;
-		z-index: 10;
-		margin-left: 340px;
-	}
+	
 	
 }
 
 @media only screen and (max-width: 360px)
 {
-	.closeimg {
-		font-weight: 400;
-		color: #4e4e0a;
-		font-size: 25px;
-		margin-top: -500px;
-		padding-left: 10px;
-		z-index: 10;
-		margin-left: 330px;
-	}
+	
 	
 }
