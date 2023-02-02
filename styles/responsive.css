@@ -383,8 +383,23 @@
 		background: rgba(255, 255, 255, 0.25);
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
-		width: 100%;	
+		width: 100%;
+		display:flex;	
 	}
+
+	
+	#roundedk-reservaton {
+		border-radius: 10px;
+		border-width: 0.5px;
+		border-color: rgba(255, 255, 255, 0.982);
+		background: rgba(255, 255, 255, 0.25);
+		border-style: solid ;
+		color: rgba(255, 255, 255, 0.961);
+		width: 100%;
+		display:flex;	
+	}
+
+	
 
 	#roundedk-in {
 		border-radius: 10px;
@@ -423,6 +438,31 @@
 		height: 45px;	
 	}
 
+	#roundedk-serv-in {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.982);
+		border-width: 0.5px;
+		background: rgba(255, 255, 255, 0.25);
+		border-style: solid ;
+		color: rgba(255, 255, 255, 0.961);
+		width: 100%;
+		margin: 0 auto;
+		height: 45px;	
+	}
+
+	#roundedk-trans-in {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.982);
+		border-width: 0.5px;
+		background: rgba(255, 255, 255, 0.25);
+		border-style: solid ;
+		color: rgba(255, 255, 255, 0.961);
+		width: 100%;
+		margin: 0 auto;
+		height: 45px;	
+	}
+
+
 	#roundedk-out {
 		border-radius: 10px;
 		border-width: 0.5px;
@@ -453,6 +493,28 @@
 		color: rgba(255, 255, 255, 0.961);
 		margin: 0 auto;	
 	}
+
+	#roundedk-serv-out {
+		border-radius: 10px;
+		border-width: 0.5px;
+		border-color: rgba(255, 255, 255, 0.982);
+		background: rgba(255, 255, 255, 0.25);
+		border-style: solid ;
+		color: rgba(255, 255, 255, 0.961);
+		margin: 0 auto;	
+	}
+
+	#roundedk-trans-out {
+		border-radius: 10px;
+		border-width: 0.5px;
+		border-color: rgba(255, 255, 255, 0.982);
+		background: rgba(255, 255, 255, 0.25);
+		border-style: solid ;
+		color: rgba(255, 255, 255, 0.961);
+		margin: 0 auto;	
+	}
+
+
 
 
 	#roundedk1 {

@@ -584,6 +584,30 @@ $(document).ready(function()
 
 
 
+	$('#roundedk-serv-in').Zebra_DatePicker({
+		direction: true,
+		pair: $('#roundedk-serv-out')
+	}); 
+	$('#roundedk-serv-out').Zebra_DatePicker({
+		direction: 1
+	});
+
+
+	$('#roundedk-trans-in').Zebra_DatePicker({
+		format: 'Y-m-d H:i',
+		direction: true,
+		pair: $('#roundedk-trans-out')
+	}); 
+	$('#roundedk-trans-out').Zebra_DatePicker({
+		direction: 1,
+		format: 'Y-m-d H:i',
+	});
+
+
+	$('#roundedk-reservaton').Zebra_DatePicker({
+		format: 'Y-m-d H:i',
+	});
+
 
 
 	
