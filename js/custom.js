@@ -648,9 +648,7 @@ $(document).ready(function()
 	initSearchForm();
 
 	/* 
-
 	2. Set Header
-
 	*/
 
 	function setHeader()
